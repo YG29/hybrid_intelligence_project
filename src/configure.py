@@ -1,0 +1,7 @@
+DATA_ROOT = "./data"
+BATCH_SIZE = 64
+NUM_EPOCHS = 5
+LEARNING_RATE = 1e-3
+NUM_WORKERS = 4
+OUTPUT_CSV = "first_round_predictions.csv"
+RANDOM_SEED = 192
