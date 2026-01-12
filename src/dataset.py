@@ -1,3 +1,4 @@
+import os
 from torch.utils.data import DataLoader, random_split, Dataset
 from torchvision import datasets
 
@@ -51,9 +52,10 @@ gtsrb_class_names = {
 class GTSRBWithPaths(Dataset):
     """
     Wraps torchvision.datasets.GTSRB to also return the image file path.
-    Paths are kept exactly as torchvision provides them.
-    Adds correct GTSRB .classes using official class names.
-    Removes dependence on .targets attribute (not available in some versions).
+
+    - Uses torchvision for loading images + labels
+    - Builds a 'paths' list by scanning the GTSRB directory, so we always
+      have a non-empty path string.
     """
 
     def __init__(self, root: str, split: str, transform=None, download: bool = True):
@@ -61,32 +63,45 @@ class GTSRBWithPaths(Dataset):
             root=root,
             split=split,
             transform=transform,
-            download=download
+            download=download,
         )
+        self.root = root
+        self.split = split
 
-        # torchvision only has .samples for the train split + some versions
-        self.has_samples = hasattr(self.base_dataset, "samples")
+        # Build paths in the same order as torchvision loads them
+        self.paths = self._build_paths_list()
 
-        # Override .classes with real GTSRB class names
+        # If you still want class names:
         self.classes = [gtsrb_class_names[i] for i in range(len(gtsrb_class_names))]
+
+    def _build_paths_list(self):
+        """
+        Build a list of image file paths that matches the order of self.base_dataset.
+        Torchvision loads train images from Final_Training/Images/<class_id>/*.ppm
+        in sorted order, so we do the same.
+        """
+        img_root = os.path.join(self.root, "gtsrb", "GTSRB", "Training")
+
+        all_paths = []
+        # class folders: 00000, 00001, ..., 00042
+        for class_id in sorted(os.listdir(img_root)):
+            if not class_id.isdigit():
+                continue
+            class_folder = os.path.join(img_root, class_id)
+            for fname in sorted(os.listdir(class_folder)):
+                if fname.lower().endswith(".ppm"):
+                    all_paths.append(os.path.join(class_folder, fname))
+
+        if len(all_paths) != len(self.base_dataset):
+            print("⚠️ Warning: number of paths != dataset length.")
+            print("Paths:", len(all_paths), " | Dataset:", len(self.base_dataset))
+
+        return all_paths
 
     def __len__(self):
         return len(self.base_dataset)
 
     def __getitem__(self, idx: int):
-        """
-        Returns:
-            img  : transformed image tensor
-            label: integer class ID (0–42)
-            path : image file path (string or "" if unavailable)
-        """
         img, label = self.base_dataset[idx]
-
-        if self.has_samples:
-            # Most torchvision versions have this for the train split
-            path, _ = self.base_dataset.samples[idx]
-        else:
-            # Fallback: no path available
-            path = ""
-
+        path = self.paths[idx]
         return img, label, path

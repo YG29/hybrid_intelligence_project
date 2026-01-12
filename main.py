@@ -28,7 +28,7 @@ def main():
         root=configure.DATA_ROOT,
         split="train",
         transform=transform,
-        download=True,
+        download=False, ## since I already downloaded but if not change to True
     )
 
     num_classes = len(full_dataset.classes)
@@ -40,10 +40,11 @@ def main():
     finetune_len = int(0.8 * total_len)
     first_test_len = total_len - finetune_len
 
+    gen = utils.torch.Generator().manual_seed(configure.RANDOM_SEED)
     finetune_dataset, first_test_dataset = random_split(
         full_dataset,
         [finetune_len, first_test_len],
-        generator=utils.torch.Generator().manual_seed(configure.RANDOM_SEED),
+        generator=gen,
     )
 
     # From the 80% finetune dataset, split 80/20 into train/val
@@ -53,7 +54,7 @@ def main():
     train_dataset, val_dataset = random_split(
         finetune_dataset,
         [train_len, val_len],
-        generator=utils.torch.Generator().manual_seed(configure.RANDOM_SEED),
+        generator=gen,
     )
 
     print(f"Train size: {len(train_dataset)}")
@@ -66,21 +67,21 @@ def main():
         batch_size=configure.BATCH_SIZE,
         shuffle=True,
         num_workers=configure.NUM_WORKERS,
-        pin_memory=True,
+        # pin_memory=True, # using mps so commented out
     )
     val_loader = DataLoader(
         val_dataset,
         batch_size=configure.BATCH_SIZE,
         shuffle=False,
         num_workers=configure.NUM_WORKERS,
-        pin_memory=True,
+        # pin_memory=True,
     )
     first_test_loader = DataLoader(
         first_test_dataset,
         batch_size=configure.BATCH_SIZE,
         shuffle=False,
         num_workers=configure.NUM_WORKERS,
-        pin_memory=True,
+        # pin_memory=True,
     )
 
     # Create model
@@ -90,6 +91,9 @@ def main():
     # Loss & optimizer
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=configure.LEARNING_RATE)
+
+    best_val_acc = 0.0
+    best_state_dict = None
 
     # Training loop
     for epoch in range(1, configure.NUM_EPOCHS + 1):
@@ -103,6 +107,22 @@ def main():
             f"Train Loss: {train_loss:.4f} | Train Acc: {train_acc:.4f} "
             f"Val Loss: {val_loss:.4f} | Val Acc: {val_acc:.4f}"
         )
+
+        # Keep best model based on validation accuracy
+        if val_acc > best_val_acc:
+            best_val_acc = val_acc
+            best_state_dict = model.state_dict()
+
+    # Save the trained model
+    if best_state_dict is not None:
+        utils.torch.save(best_state_dict, configure.MODEL_PATH)
+        print(f"Saved best model (val acc={best_val_acc:.4f}) to: {configure.MODEL_PATH}")
+        # load best weights back into model for test / CSV
+        model.load_state_dict(best_state_dict)
+    else:
+        # Fallback: save last state
+        utils.torch.save(model.state_dict(), configure.MODEL_PATH)
+        print(f"Saved model (last epoch) to: {configure.MODEL_PATH}")
 
     # Evaluate on the first-round test set
     test_loss, test_acc = utils.evaluate(model, first_test_loader, criterion, device)
