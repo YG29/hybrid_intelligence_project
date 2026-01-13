@@ -176,7 +176,7 @@ with col_right:
     col_tick, col_cross = st.columns(2)
 
     with col_tick:
-        if st.button("✅ Tick: Accept model's top-1"):
+        if st.button("✅ Accept model's top-1"):
             # Final choice: top-1 prediction
             k1, idx1, name1, prob1 = top5[0]
             record_annotation(
@@ -191,7 +191,7 @@ with col_right:
             st.rerun()
 
     with col_cross:
-        if st.button("❌ Cross: Use selected class"):
+        if st.button("❌ Use selected class"):
             # Final choice: whatever is selected in the radio
             record_annotation(
                 row=row,
