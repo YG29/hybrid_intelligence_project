@@ -6,5 +6,5 @@ NUM_WORKERS = 4
 OUTPUT_CSV = "first_round_predictions.csv"
 RANDOM_SEED = 192
 MODEL_PATH = "resnet18_gtsrb_finetuned.pth"
-PREDICTIONS_CSV = "first_round_predictions.csv"
+PREDICTIONS_CSV = "newdataset.csv"
 ANNOTATIONS_CSV = "human_annotations.csv"

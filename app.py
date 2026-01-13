@@ -99,7 +99,7 @@ def record_annotation(row: pd.Series,
 
 st.set_page_config(page_title="GTSRB Human Audit", layout="wide")
 
-st.title("Step 2: Human Audit of First-Round Predictions")
+st.title("Human Audit of First-Round Predictions")
 st.write(
     "For each image, you see the model's top-5 predictions. "
     "Use **Tick** to accept the model's top-1 prediction, or **Cross** to choose a different one."
@@ -116,6 +116,14 @@ num_rows = len(df)
 if num_rows == 0:
     st.warning("No rows found in predictions CSV.")
     st.stop()
+
+# Build full list of labels (id -> name) from the CSV for the dropdown
+gtsrb_names = dataset.gtsrb_class_names
+all_label_options = [
+    f"{idx}: {name}"
+    for idx, name in sorted(gtsrb_names.items(), key=lambda x: x[0])
+]
+full_label_placeholder = "(none / not needed)"
 
 # Init session state (row index, existing annotations)
 init_session_state(df)
@@ -150,7 +158,7 @@ with col_right:
     top5 = get_top5_from_row(row)
 
     # Show as radio list for Cross case
-    options = [f"{name} (p={prob:.3f})" for (_, _, name, prob) in top5]
+    options = [f"{name} (p={prob:.5f})" for (_, _, name, prob) in top5]
     default_index = 0  # by default highlight top1
 
     selected_option = st.radio(
@@ -165,10 +173,27 @@ with col_right:
             selected_k, selected_idx, selected_name, selected_prob = k, idx, name, prob
             break
 
+    # NEW: full-label dropdown as backup
+    st.markdown("If the correct class is **not** in the top-5, choose it here:")
+    full_label_choice = st.selectbox(
+        "Full label list (fallback):",
+        options=[full_label_placeholder] + all_label_options,
+        index=0,
+    )
+
+    # Parse full-label choice if used
+    full_label_idx = None
+    full_label_name = None
+    if full_label_choice != full_label_placeholder:
+        # format: "idx: name"
+        idx_str, name_str = full_label_choice.split(":", 1)
+        full_label_idx = int(idx_str.strip())
+        full_label_name = name_str.strip()
+
     # Visual highlight of final choice (current selection)
     st.markdown(
         f"**Current chosen class:** :blue[`{selected_name}`] "
-        f"(prob = {selected_prob:.3f})"
+        f"(prob = {selected_prob:.5f})"
     )
 
     st.markdown("### Actions")
@@ -192,13 +217,23 @@ with col_right:
 
     with col_cross:
         if st.button("❌ Use selected class"):
-            # Final choice: whatever is selected in the radio
+            # Decide whether to use the full-label dropdown or the top-5 radio
+            if full_label_idx is not None:
+                final_idx = full_label_idx
+                final_name = full_label_name
+                # No prob info available beyond top-5; use 0.0 as placeholder
+                final_prob = 0.0
+            else:
+                final_idx = selected_idx
+                final_name = selected_name
+                final_prob = selected_prob
+
             record_annotation(
                 row=row,
                 image_path=image_path,
-                chosen_label_idx=selected_idx,
-                chosen_label_name=selected_name,
-                chosen_label_prob=selected_prob,
+                chosen_label_idx=final_idx,
+                chosen_label_name=final_name,
+                chosen_label_prob=final_prob,
                 accepted_top1=False,
             )
             st.session_state.row_idx += 1
