@@ -32,3 +32,211 @@ image_path,true_label_index,true_label_name,top1_index,top1_name,top1_prob,human
 ./data/gtsrb/GTSRB/Training/00034/00006_00016.ppm,34,Turn left ahead,34,Turn left ahead,0.9994418025016784,34,Turn left ahead,0.9994418025016784,True,True,2026-01-13T15:29:32.256070
 ./data/gtsrb/GTSRB/Training/00009/00026_00005.ppm,9,No passing,2,Speed limit (50km/h),0.2449733316898346,9,No passing,0.0,False,False,2026-01-13T15:45:02.206592
 ./data/gtsrb/GTSRB/Training/00017/00010_00021.ppm,17,No entry,17,No entry,0.9999582767486572,17,No entry,0.9999582767486572,True,True,2026-01-13T15:45:05.644651
+./data/gtsrb/GTSRB/Training/00003/00019_00017.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.9779449105262756,5,Speed limit (80km/h),0.9779449105262756,True,False,2026-01-13T17:03:39.020061
+./data/gtsrb/GTSRB/Training/00018/00004_00020.ppm,18,General caution,18,General caution,0.99989914894104,18,General caution,0.99989914894104,True,True,2026-01-13T17:03:51.692087
+./data/gtsrb/GTSRB/Training/00008/00024_00007.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.7408076524734497,1,Speed limit (30km/h),0.0016371933743357,False,False,2026-01-13T17:05:22.833028
+./data/gtsrb/GTSRB/Training/00005/00021_00026.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9999991655349731,5,Speed limit (80km/h),0.9999991655349731,True,True,2026-01-13T17:05:29.329964
+./data/gtsrb/GTSRB/Training/00028/00000_00015.ppm,28,Children crossing,28,Children crossing,0.9999688863754272,28,Children crossing,0.9999688863754272,True,True,2026-01-13T17:05:38.428789
+./data/gtsrb/GTSRB/Training/00003/00020_00028.ppm,3,Speed limit (60km/h),3,Speed limit (60km/h),0.9927746057510376,3,Speed limit (60km/h),0.9927746057510376,True,True,2026-01-13T17:05:40.635452
+./data/gtsrb/GTSRB/Training/00038/00042_00014.ppm,38,Keep right,38,Keep right,0.9999984502792358,38,Keep right,0.9999984502792358,True,True,2026-01-13T17:06:42.823606
+./data/gtsrb/GTSRB/Training/00008/00031_00003.ppm,8,Speed limit (120km/h),8,Speed limit (120km/h),0.9187371134757996,1,Speed limit (30km/h),0.0,False,True,2026-01-13T17:08:32.517122
+./data/gtsrb/GTSRB/Training/00003/00012_00002.ppm,3,Speed limit (60km/h),12,Priority road,0.2938778102397918,1,Speed limit (30km/h),0.0,False,False,2026-01-13T17:08:46.292946
+./data/gtsrb/GTSRB/Training/00030/00006_00005.ppm,30,Beware of ice/snow,30,Beware of ice/snow,0.6147502064704895,30,Beware of ice/snow,0.6147502064704895,True,True,2026-01-13T17:09:27.535840
+./data/gtsrb/GTSRB/Training/00008/00001_00004.ppm,8,Speed limit (120km/h),7,Speed limit (100km/h),0.9702581167221068,1,Speed limit (30km/h),0.0,False,False,2026-01-13T17:10:15.990907
+./data/gtsrb/GTSRB/Training/00001/00042_00029.ppm,1,Speed limit (30km/h),4,Speed limit (70km/h),0.9513788819313048,1,Speed limit (30km/h),0.0,False,False,2026-01-13T17:10:23.157027
+./data/gtsrb/GTSRB/Training/00019/00001_00000.ppm,19,Dangerous curve to the left,19,Dangerous curve to the left,0.999998927116394,19,Dangerous curve to the left,0.999998927116394,True,True,2026-01-13T17:10:27.609995
+./data/gtsrb/GTSRB/Training/00004/00018_00017.ppm,4,Speed limit (70km/h),4,Speed limit (70km/h),1.0,4,Speed limit (70km/h),1.0,True,True,2026-01-13T17:10:30.780050
+./data/gtsrb/GTSRB/Training/00007/00030_00001.ppm,7,Speed limit (100km/h),7,Speed limit (100km/h),0.9999992847442628,7,Speed limit (100km/h),0.9999992847442628,True,True,2026-01-13T17:11:17.749043
+./data/gtsrb/GTSRB/Training/00038/00018_00002.ppm,38,Keep right,38,Keep right,0.99981290102005,38,Keep right,0.99981290102005,True,True,2026-01-13T17:11:26.995275
+./data/gtsrb/GTSRB/Training/00005/00009_00028.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9999988079071044,5,Speed limit (80km/h),0.9999988079071044,True,True,2026-01-13T17:11:28.728855
+./data/gtsrb/GTSRB/Training/00002/00001_00003.ppm,2,Speed limit (50km/h),6,End of speed limit (80km/h),0.2493243068456649,1,Speed limit (30km/h),0.0,False,False,2026-01-13T17:11:36.080526
+./data/gtsrb/GTSRB/Training/00009/00032_00029.ppm,9,No passing,9,No passing,0.9999982118606568,9,No passing,0.9999982118606568,True,True,2026-01-13T17:11:42.573217
+./data/gtsrb/GTSRB/Training/00031/00001_00009.ppm,31,Wild animals crossing,31,Wild animals crossing,0.9912450909614564,31,Wild animals crossing,0.9912450909614564,True,True,2026-01-13T17:11:45.471504
+./data/gtsrb/GTSRB/Training/00007/00004_00005.ppm,7,Speed limit (100km/h),5,Speed limit (80km/h),0.4774963557720184,1,Speed limit (30km/h),0.0,False,False,2026-01-13T17:11:56.463826
+./data/gtsrb/GTSRB/Training/00033/00001_00024.ppm,33,Turn right ahead,33,Turn right ahead,0.9999997615814208,33,Turn right ahead,0.9999997615814208,True,True,2026-01-13T17:12:00.150423
+./data/gtsrb/GTSRB/Training/00002/00016_00017.ppm,2,Speed limit (50km/h),2,Speed limit (50km/h),0.9953246116638184,2,Speed limit (50km/h),0.9953246116638184,True,True,2026-01-13T17:12:02.102709
+./data/gtsrb/GTSRB/Training/00038/00015_00006.ppm,38,Keep right,38,Keep right,0.9999960660934448,38,Keep right,0.9999960660934448,True,True,2026-01-13T17:12:06.230154
+./data/gtsrb/GTSRB/Training/00016/00007_00004.ppm,16,Vehicles > 3.5t prohibited,16,Vehicles > 3.5t prohibited,0.9993430972099304,16,Vehicles > 3.5t prohibited,0.9993430972099304,True,True,2026-01-13T17:13:14.631728
+./data/gtsrb/GTSRB/Training/00022/00003_00013.ppm,22,Bumpy road,22,Bumpy road,0.9999024868011476,22,Bumpy road,0.9999024868011476,True,True,2026-01-13T17:13:16.617198
+./data/gtsrb/GTSRB/Training/00020/00002_00009.ppm,20,Dangerous curve to the right,20,Dangerous curve to the right,0.9998773336410522,20,Dangerous curve to the right,0.9998773336410522,True,True,2026-01-13T17:13:20.986959
+./data/gtsrb/GTSRB/Training/00002/00000_00001.ppm,2,Speed limit (50km/h),5,Speed limit (80km/h),0.6782479882240295,1,Speed limit (30km/h),0.0,False,False,2026-01-13T17:13:24.895825
+./data/gtsrb/GTSRB/Training/00003/00021_00017.ppm,3,Speed limit (60km/h),3,Speed limit (60km/h),0.9970961809158324,3,Speed limit (60km/h),0.9970961809158324,True,True,2026-01-13T17:13:26.776188
+./data/gtsrb/GTSRB/Training/00001/00036_00004.ppm,1,Speed limit (30km/h),4,Speed limit (70km/h),0.9435464143753052,1,Speed limit (30km/h),0.0,False,False,2026-01-13T17:13:35.316635
+./data/gtsrb/GTSRB/Training/00008/00014_00019.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.743659257888794,1,Speed limit (30km/h),0.0,False,False,2026-01-13T17:13:40.294226
+./data/gtsrb/GTSRB/Training/00003/00007_00020.ppm,3,Speed limit (60km/h),3,Speed limit (60km/h),0.9950156807899476,1,Speed limit (30km/h),0.0,False,True,2026-01-13T17:13:43.187956
+./data/gtsrb/GTSRB/Training/00014/00005_00025.ppm,14,Stop,14,Stop,0.9982261061668396,14,Stop,0.9982261061668396,True,True,2026-01-13T17:13:46.506720
+./data/gtsrb/GTSRB/Training/00009/00023_00027.ppm,9,No passing,9,No passing,0.9999885559082032,9,No passing,0.9999885559082032,True,True,2026-01-13T17:13:55.827738
+./data/gtsrb/GTSRB/Training/00017/00020_00000.ppm,17,No entry,17,No entry,0.9998540878295898,17,No entry,0.9998540878295898,True,True,2026-01-13T17:14:01.006796
+./data/gtsrb/GTSRB/Training/00003/00019_00000.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.9962249994277954,1,Speed limit (30km/h),0.0,False,False,2026-01-13T17:14:05.774609
+./data/gtsrb/GTSRB/Training/00021/00001_00005.ppm,21,Double curve,31,Wild animals crossing,0.5362337231636047,21,Double curve,0.0,False,False,2026-01-13T17:14:50.861119
+./data/gtsrb/GTSRB/Training/00001/00045_00010.ppm,1,Speed limit (30km/h),1,Speed limit (30km/h),0.9923575520515442,1,Speed limit (30km/h),0.9923575520515442,True,True,2026-01-13T17:15:04.222336
+./data/gtsrb/GTSRB/Training/00001/00013_00000.ppm,1,Speed limit (30km/h),1,Speed limit (30km/h),0.9997628331184388,1,Speed limit (30km/h),0.9997628331184388,True,True,2026-01-13T17:15:05.724614
+./data/gtsrb/GTSRB/Training/00012/00010_00013.ppm,12,Priority road,12,Priority road,0.99999737739563,12,Priority road,0.99999737739563,True,True,2026-01-13T17:15:18.828393
+./data/gtsrb/GTSRB/Training/00003/00019_00016.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.99616938829422,21,Double curve,0.0,False,False,2026-01-13T17:15:22.966789
+./data/gtsrb/GTSRB/Training/00008/00014_00004.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.6018646955490112,8,Speed limit (120km/h),0.0,False,False,2026-01-13T17:16:09.079235
+./data/gtsrb/GTSRB/Training/00035/00026_00014.ppm,35,Ahead only,35,Ahead only,0.9994307160377502,35,Ahead only,0.9994307160377502,True,True,2026-01-13T17:16:11.759145
+./data/gtsrb/GTSRB/Training/00002/00012_00001.ppm,2,Speed limit (50km/h),4,Speed limit (70km/h),0.56374591588974,8,Speed limit (120km/h),0.0,False,False,2026-01-13T17:16:14.679667
+./data/gtsrb/GTSRB/Training/00001/00007_00004.ppm,1,Speed limit (30km/h),4,Speed limit (70km/h),0.6916180849075317,8,Speed limit (120km/h),0.0,False,False,2026-01-13T17:16:25.324550
+./data/gtsrb/GTSRB/Training/00013/00025_00027.ppm,13,Yield,13,Yield,0.9999990463256836,13,Yield,0.9999990463256836,True,True,2026-01-13T17:16:32.980708
+./data/gtsrb/GTSRB/Training/00040/00004_00016.ppm,40,Roundabout mandatory,40,Roundabout mandatory,0.999996542930603,40,Roundabout mandatory,0.999996542930603,True,True,2026-01-13T17:16:35.442274
+./data/gtsrb/GTSRB/Training/00002/00001_00005.ppm,2,Speed limit (50km/h),6,End of speed limit (80km/h),0.3546771705150604,6,End of speed limit (80km/h),0.3546771705150604,True,False,2026-01-13T17:16:41.901640
+./data/gtsrb/GTSRB/Training/00033/00014_00014.ppm,33,Turn right ahead,33,Turn right ahead,1.0,33,Turn right ahead,1.0,True,True,2026-01-13T17:16:49.831772
+./data/gtsrb/GTSRB/Training/00002/00010_00008.ppm,2,Speed limit (50km/h),2,Speed limit (50km/h),0.9980990290641784,2,Speed limit (50km/h),0.9980990290641784,True,True,2026-01-13T17:16:51.782584
+./data/gtsrb/GTSRB/Training/00030/00008_00026.ppm,30,Beware of ice/snow,30,Beware of ice/snow,0.9946908354759216,30,Beware of ice/snow,0.9946908354759216,True,True,2026-01-13T17:16:53.645212
+./data/gtsrb/GTSRB/Training/00013/00041_00021.ppm,13,Yield,13,Yield,0.9999991655349731,13,Yield,0.9999991655349731,True,True,2026-01-13T17:16:54.951484
+./data/gtsrb/GTSRB/Training/00008/00029_00026.ppm,8,Speed limit (120km/h),8,Speed limit (120km/h),0.9999986886978148,8,Speed limit (120km/h),0.9999986886978148,True,True,2026-01-13T17:16:56.330652
+./data/gtsrb/GTSRB/Training/00016/00003_00007.ppm,16,Vehicles > 3.5t prohibited,16,Vehicles > 3.5t prohibited,0.9984663724899292,16,Vehicles > 3.5t prohibited,0.9984663724899292,True,True,2026-01-13T17:16:58.671947
+./data/gtsrb/GTSRB/Training/00000/00003_00000.ppm,0,Speed limit (20km/h),4,Speed limit (70km/h),0.5668313503265381,0,Speed limit (20km/h),0.4172562956809997,False,False,2026-01-13T17:23:58.183406
+./data/gtsrb/GTSRB/Training/00023/00008_00029.ppm,23,Slippery road,29,Bicycles crossing,0.8700281381607056,23,Slippery road,0.1196449622511863,False,False,2026-01-13T17:24:06.473074
+./data/gtsrb/GTSRB/Training/00012/00012_00000.ppm,12,Priority road,12,Priority road,0.9998052716255188,12,Priority road,0.9998052716255188,True,True,2026-01-13T17:24:09.423755
+./data/gtsrb/GTSRB/Training/00008/00011_00009.ppm,8,Speed limit (120km/h),8,Speed limit (120km/h),0.999486804008484,8,Speed limit (120km/h),0.999486804008484,True,True,2026-01-13T17:24:11.407597
+./data/gtsrb/GTSRB/Training/00031/00006_00012.ppm,31,Wild animals crossing,31,Wild animals crossing,0.9952391386032104,31,Wild animals crossing,0.9952391386032104,True,True,2026-01-13T17:24:15.321172
+./data/gtsrb/GTSRB/Training/00002/00037_00006.ppm,2,Speed limit (50km/h),2,Speed limit (50km/h),0.9842426776885986,2,Speed limit (50km/h),0.9842426776885986,True,True,2026-01-13T17:24:17.996614
+./data/gtsrb/GTSRB/Training/00001/00004_00006.ppm,1,Speed limit (30km/h),1,Speed limit (30km/h),0.998397409915924,1,Speed limit (30km/h),0.998397409915924,True,True,2026-01-13T17:24:20.424134
+./data/gtsrb/GTSRB/Training/00038/00007_00026.ppm,38,Keep right,38,Keep right,0.9999701976776124,38,Keep right,0.9999701976776124,True,True,2026-01-13T17:24:29.118478
+./data/gtsrb/GTSRB/Training/00009/00026_00008.ppm,9,No passing,5,Speed limit (80km/h),0.3307062089443207,9,No passing,0.1072655469179153,False,False,2026-01-13T17:24:33.849996
+./data/gtsrb/GTSRB/Training/00003/00019_00026.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.9976678490638732,3,Speed limit (60km/h),0.0011543618747964,False,False,2026-01-13T17:24:38.903597
+./data/gtsrb/GTSRB/Training/00004/00035_00025.ppm,4,Speed limit (70km/h),4,Speed limit (70km/h),0.999994158744812,4,Speed limit (70km/h),0.999994158744812,True,True,2026-01-13T17:24:47.700927
+./data/gtsrb/GTSRB/Training/00001/00036_00003.ppm,1,Speed limit (30km/h),4,Speed limit (70km/h),0.8185197114944458,1,Speed limit (30km/h),0.1459829211235046,False,False,2026-01-13T17:24:52.329747
+./data/gtsrb/GTSRB/Training/00004/00007_00003.ppm,4,Speed limit (70km/h),4,Speed limit (70km/h),0.9999986886978148,4,Speed limit (70km/h),0.9999986886978148,True,True,2026-01-13T17:25:03.022715
+./data/gtsrb/GTSRB/Training/00005/00013_00008.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.999996781349182,5,Speed limit (80km/h),0.999996781349182,True,True,2026-01-13T17:25:51.298823
+./data/gtsrb/GTSRB/Training/00029/00001_00001.ppm,29,Bicycles crossing,28,Children crossing,0.9240282773971558,28,Children crossing,0.9240282773971558,True,False,2026-01-13T17:29:35.036063
+./data/gtsrb/GTSRB/Training/00006/00001_00027.ppm,6,End of speed limit (80km/h),6,End of speed limit (80km/h),0.977854073047638,6,End of speed limit (80km/h),0.977854073047638,True,True,2026-01-13T17:29:37.768091
+./data/gtsrb/GTSRB/Training/00035/00025_00024.ppm,35,Ahead only,35,Ahead only,0.9993879795074464,35,Ahead only,0.9993879795074464,True,True,2026-01-13T17:29:39.450156
+./data/gtsrb/GTSRB/Training/00013/00038_00013.ppm,13,Yield,13,Yield,0.9999991655349731,13,Yield,0.9999991655349731,True,True,2026-01-13T17:29:43.473706
+./data/gtsrb/GTSRB/Training/00038/00016_00024.ppm,38,Keep right,38,Keep right,0.9999300241470336,38,Keep right,0.9999300241470336,True,True,2026-01-13T17:29:45.156623
+./data/gtsrb/GTSRB/Training/00029/00001_00008.ppm,29,Bicycles crossing,29,Bicycles crossing,0.981686234474182,29,Bicycles crossing,0.981686234474182,True,True,2026-01-13T17:29:49.378917
+./data/gtsrb/GTSRB/Training/00017/00013_00020.ppm,17,No entry,17,No entry,0.999996542930603,17,No entry,0.999996542930603,True,True,2026-01-13T17:29:50.569391
+./data/gtsrb/GTSRB/Training/00010/00010_00027.ppm,10,No passing for vehicles over 3.5t,10,No passing for vehicles over 3.5t,0.9988951086997986,10,No passing for vehicles over 3.5t,0.9988951086997986,True,True,2026-01-13T17:29:54.939550
+./data/gtsrb/GTSRB/Training/00005/00001_00012.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9999924898147584,5,Speed limit (80km/h),0.9999924898147584,True,True,2026-01-13T17:29:56.367211
+./data/gtsrb/GTSRB/Training/00038/00006_00007.ppm,38,Keep right,38,Keep right,0.9999732971191406,38,Keep right,0.9999732971191406,True,True,2026-01-13T17:29:57.635926
+./data/gtsrb/GTSRB/Training/00028/00003_00021.ppm,28,Children crossing,28,Children crossing,1.0,28,Children crossing,1.0,True,True,2026-01-13T17:29:59.451143
+./data/gtsrb/GTSRB/Training/00022/00001_00013.ppm,22,Bumpy road,22,Bumpy road,0.9993246793746948,22,Bumpy road,0.9993246793746948,True,True,2026-01-13T17:30:00.931531
+./data/gtsrb/GTSRB/Training/00005/00004_00023.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9999949932098388,5,Speed limit (80km/h),0.9999949932098388,True,True,2026-01-13T17:30:02.132931
+./data/gtsrb/GTSRB/Training/00018/00005_00015.ppm,18,General caution,18,General caution,0.9999308586120604,18,General caution,0.9999308586120604,True,True,2026-01-13T17:30:03.943656
+./data/gtsrb/GTSRB/Training/00003/00012_00004.ppm,3,Speed limit (60km/h),12,Priority road,0.3316237330436706,3,Speed limit (60km/h),0.1593703031539917,False,False,2026-01-13T17:30:09.456136
+./data/gtsrb/GTSRB/Training/00031/00003_00020.ppm,31,Wild animals crossing,31,Wild animals crossing,0.9929714798927308,31,Wild animals crossing,0.9929714798927308,True,True,2026-01-13T17:30:11.688802
+./data/gtsrb/GTSRB/Training/00034/00008_00017.ppm,34,Turn left ahead,34,Turn left ahead,0.999723255634308,34,Turn left ahead,0.999723255634308,True,True,2026-01-13T17:30:36.382991
+./data/gtsrb/GTSRB/Training/00001/00016_00005.ppm,1,Speed limit (30km/h),1,Speed limit (30km/h),0.652413547039032,1,Speed limit (30km/h),0.652413547039032,True,True,2026-01-13T17:30:40.519912
+./data/gtsrb/GTSRB/Training/00004/00007_00017.ppm,4,Speed limit (70km/h),4,Speed limit (70km/h),0.999997854232788,4,Speed limit (70km/h),0.999997854232788,True,True,2026-01-13T17:30:43.104372
+./data/gtsrb/GTSRB/Training/00024/00002_00001.ppm,24,Road narrows on the right,24,Road narrows on the right,0.9996612071990968,24,Road narrows on the right,0.9996612071990968,True,True,2026-01-13T17:30:58.164367
+./data/gtsrb/GTSRB/Training/00003/00001_00016.ppm,3,Speed limit (60km/h),33,Turn right ahead,0.8763806819915771,33,Turn right ahead,0.8763806819915771,True,False,2026-01-13T17:31:07.585903
+./data/gtsrb/GTSRB/Training/00038/00040_00006.ppm,38,Keep right,38,Keep right,0.9999994039535522,38,Keep right,0.9999994039535522,True,True,2026-01-13T17:31:11.226395
+./data/gtsrb/GTSRB/Training/00005/00021_00025.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9999991655349731,5,Speed limit (80km/h),0.9999991655349731,True,True,2026-01-13T17:31:15.549112
+./data/gtsrb/GTSRB/Training/00008/00027_00000.ppm,8,Speed limit (120km/h),4,Speed limit (70km/h),0.998812198638916,1,Speed limit (30km/h),0.0,False,False,2026-01-13T17:34:57.072925
+./data/gtsrb/GTSRB/Training/00008/00014_00014.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.7160193920135498,1,Speed limit (30km/h),0.0,False,False,2026-01-13T17:35:01.237712
+./data/gtsrb/GTSRB/Training/00019/00000_00019.ppm,19,Dangerous curve to the left,19,Dangerous curve to the left,0.9999995231628418,19,Dangerous curve to the left,0.9999995231628418,True,True,2026-01-13T17:35:10.772964
+./data/gtsrb/GTSRB/Training/00001/00007_00002.ppm,1,Speed limit (30km/h),4,Speed limit (70km/h),0.7602653503417969,1,Speed limit (30km/h),0.0,False,False,2026-01-13T17:35:14.007890
+./data/gtsrb/GTSRB/Training/00028/00004_00023.ppm,28,Children crossing,28,Children crossing,0.99999737739563,28,Children crossing,0.99999737739563,True,True,2026-01-13T17:35:24.763699
+./data/gtsrb/GTSRB/Training/00005/00000_00020.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9999979734420776,5,Speed limit (80km/h),0.9999979734420776,True,True,2026-01-13T17:35:29.339304
+./data/gtsrb/GTSRB/Training/00012/00033_00002.ppm,12,Priority road,12,Priority road,0.99994695186615,12,Priority road,0.99994695186615,True,True,2026-01-13T17:35:32.920422
+./data/gtsrb/GTSRB/Training/00027/00000_00003.ppm,27,Pedestrians,27,Pedestrians,0.9998555183410645,27,Pedestrians,0.9998555183410645,True,True,2026-01-13T17:35:34.489507
+./data/gtsrb/GTSRB/Training/00001/00034_00005.ppm,1,Speed limit (30km/h),1,Speed limit (30km/h),0.9300002455711364,1,Speed limit (30km/h),0.9300002455711364,True,True,2026-01-13T17:35:44.223516
+./data/gtsrb/GTSRB/Training/00014/00015_00008.ppm,14,Stop,14,Stop,0.9996802806854248,14,Stop,0.9996802806854248,True,True,2026-01-13T17:35:46.914769
+./data/gtsrb/GTSRB/Training/00012/00019_00000.ppm,12,Priority road,12,Priority road,0.9999994039535522,12,Priority road,0.9999994039535522,True,True,2026-01-13T17:35:50.399173
+./data/gtsrb/GTSRB/Training/00036/00000_00017.ppm,36,Go straight or right,36,Go straight or right,0.9994743466377258,36,Go straight or right,0.9994743466377258,True,True,2026-01-13T17:36:00.900687
+./data/gtsrb/GTSRB/Training/00013/00043_00022.ppm,13,Yield,13,Yield,0.9999996423721312,13,Yield,0.9999996423721312,True,True,2026-01-13T17:36:03.026395
+./data/gtsrb/GTSRB/Training/00012/00028_00014.ppm,12,Priority road,12,Priority road,1.0,12,Priority road,1.0,True,True,2026-01-13T17:36:39.086818
+./data/gtsrb/GTSRB/Training/00007/00008_00003.ppm,7,Speed limit (100km/h),7,Speed limit (100km/h),0.9954759478569032,7,Speed limit (100km/h),0.9954759478569032,True,True,2026-01-13T17:36:46.390358
+./data/gtsrb/GTSRB/Training/00011/00013_00011.ppm,11,Right-of-way at the next intersection,11,Right-of-way at the next intersection,0.999789297580719,11,Right-of-way at the next intersection,0.999789297580719,True,True,2026-01-13T17:36:50.107622
+./data/gtsrb/GTSRB/Training/00001/00013_00006.ppm,1,Speed limit (30km/h),1,Speed limit (30km/h),0.9991808533668518,1,Speed limit (30km/h),0.9991808533668518,True,True,2026-01-13T17:36:51.600833
+./data/gtsrb/GTSRB/Training/00010/00010_00013.ppm,10,No passing for vehicles over 3.5t,10,No passing for vehicles over 3.5t,0.9996029734611512,10,No passing for vehicles over 3.5t,0.9996029734611512,True,True,2026-01-13T17:36:53.469492
+./data/gtsrb/GTSRB/Training/00036/00004_00013.ppm,36,Go straight or right,36,Go straight or right,0.9999995231628418,36,Go straight or right,0.9999995231628418,True,True,2026-01-13T17:36:55.026643
+./data/gtsrb/GTSRB/Training/00009/00026_00017.ppm,9,No passing,5,Speed limit (80km/h),0.3083329200744629,9,No passing,0.2918014824390411,False,False,2026-01-13T17:36:59.333990
+./data/gtsrb/GTSRB/Training/00026/00004_00000.ppm,26,Traffic signals,26,Traffic signals,0.9965410828590392,26,Traffic signals,0.9965410828590392,True,True,2026-01-13T17:37:35.588337
+./data/gtsrb/GTSRB/Training/00009/00021_00000.ppm,9,No passing,9,No passing,0.9999582767486572,9,No passing,0.9999582767486572,True,True,2026-01-13T17:37:41.940012
+./data/gtsrb/GTSRB/Training/00007/00011_00012.ppm,7,Speed limit (100km/h),7,Speed limit (100km/h),1.0,7,Speed limit (100km/h),1.0,True,True,2026-01-13T17:37:44.936141
+./data/gtsrb/GTSRB/Training/00007/00027_00016.ppm,7,Speed limit (100km/h),7,Speed limit (100km/h),1.0,7,Speed limit (100km/h),1.0,True,True,2026-01-13T17:37:46.464218
+./data/gtsrb/GTSRB/Training/00025/00033_00014.ppm,25,Road work,25,Road work,0.9999998807907104,25,Road work,0.9999998807907104,True,True,2026-01-13T17:37:48.170941
+./data/gtsrb/GTSRB/Training/00002/00041_00018.ppm,2,Speed limit (50km/h),2,Speed limit (50km/h),0.9986757636070251,2,Speed limit (50km/h),0.9986757636070251,True,True,2026-01-13T17:37:49.681283
+./data/gtsrb/GTSRB/Training/00025/00026_00004.ppm,25,Road work,25,Road work,0.9999986886978148,25,Road work,0.9999986886978148,True,True,2026-01-13T17:37:50.874384
+./data/gtsrb/GTSRB/Training/00015/00002_00029.ppm,15,No vehicles,15,No vehicles,0.9998109936714172,32,End of all speed and passing limits,1.9836101273540407e-05,False,True,2026-01-13T17:38:40.189534
+./data/gtsrb/GTSRB/Training/00008/00009_00000.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.9970566034317015,5,Speed limit (80km/h),0.9970566034317015,True,False,2026-01-13T17:39:22.273074
+./data/gtsrb/GTSRB/Training/00012/00031_00028.ppm,12,Priority road,12,Priority road,0.9999995231628418,12,Priority road,0.9999995231628418,True,True,2026-01-13T17:39:24.659678
+./data/gtsrb/GTSRB/Training/00009/00004_00011.ppm,9,No passing,9,No passing,0.999911904335022,9,No passing,0.999911904335022,True,True,2026-01-13T17:39:26.596129
+./data/gtsrb/GTSRB/Training/00035/00007_00001.ppm,35,Ahead only,35,Ahead only,0.999729335308075,35,Ahead only,0.999729335308075,True,True,2026-01-13T17:39:27.710701
+./data/gtsrb/GTSRB/Training/00011/00022_00008.ppm,11,Right-of-way at the next intersection,11,Right-of-way at the next intersection,0.9965701103210448,11,Right-of-way at the next intersection,0.9965701103210448,True,True,2026-01-13T17:39:30.277526
+./data/gtsrb/GTSRB/Training/00008/00022_00005.ppm,8,Speed limit (120km/h),8,Speed limit (120km/h),0.7800998091697693,8,Speed limit (120km/h),0.7800998091697693,True,True,2026-01-13T17:39:36.061386
+./data/gtsrb/GTSRB/Training/00006/00007_00000.ppm,6,End of speed limit (80km/h),32,End of all speed and passing limits,0.4946653842926025,6,End of speed limit (80km/h),0.4821302592754364,False,False,2026-01-13T17:39:45.393235
+./data/gtsrb/GTSRB/Training/00004/00017_00008.ppm,4,Speed limit (70km/h),4,Speed limit (70km/h),1.0,4,Speed limit (70km/h),1.0,True,True,2026-01-13T17:39:52.267809
+./data/gtsrb/GTSRB/Training/00005/00017_00016.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9999984502792358,5,Speed limit (80km/h),0.9999984502792358,True,True,2026-01-13T17:39:53.757133
+./data/gtsrb/GTSRB/Training/00010/00001_00012.ppm,10,No passing for vehicles over 3.5t,10,No passing for vehicles over 3.5t,0.996702253818512,10,No passing for vehicles over 3.5t,0.996702253818512,True,True,2026-01-13T17:40:06.806419
+./data/gtsrb/GTSRB/Training/00030/00006_00001.ppm,30,Beware of ice/snow,26,Traffic signals,0.4066336452960968,30,Beware of ice/snow,0.092480681836605,False,False,2026-01-13T17:40:34.123941
+./data/gtsrb/GTSRB/Training/00015/00009_00004.ppm,15,No vehicles,15,No vehicles,0.9994144439697266,15,No vehicles,0.9994144439697266,True,True,2026-01-13T17:42:14.203923
+./data/gtsrb/GTSRB/Training/00013/00003_00000.ppm,13,Yield,13,Yield,0.9994890689849854,13,Yield,0.9994890689849854,True,True,2026-01-13T17:42:19.658960
+./data/gtsrb/GTSRB/Training/00025/00013_00025.ppm,25,Road work,25,Road work,0.9999964237213136,25,Road work,0.9999964237213136,True,True,2026-01-13T17:42:20.855250
+./data/gtsrb/GTSRB/Training/00032/00005_00015.ppm,32,End of all speed and passing limits,32,End of all speed and passing limits,0.9997380375862122,32,End of all speed and passing limits,0.9997380375862122,True,True,2026-01-13T17:42:35.016015
+./data/gtsrb/GTSRB/Training/00007/00006_00013.ppm,7,Speed limit (100km/h),5,Speed limit (80km/h),0.7746381163597107,5,Speed limit (80km/h),0.7746381163597107,True,False,2026-01-13T17:42:37.830132
+./data/gtsrb/GTSRB/Training/00025/00029_00010.ppm,25,Road work,25,Road work,0.9999918937683104,25,Road work,0.9999918937683104,True,True,2026-01-13T17:42:40.242334
+./data/gtsrb/GTSRB/Training/00003/00031_00016.ppm,3,Speed limit (60km/h),3,Speed limit (60km/h),0.9871612191200256,3,Speed limit (60km/h),0.9871612191200256,True,True,2026-01-13T17:42:41.773126
+./data/gtsrb/GTSRB/Training/00008/00023_00002.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.6655572056770325,5,Speed limit (80km/h),0.6655572056770325,True,False,2026-01-13T17:43:56.262003
+./data/gtsrb/GTSRB/Training/00008/00017_00009.ppm,8,Speed limit (120km/h),8,Speed limit (120km/h),0.9987276196479796,8,Speed limit (120km/h),0.9987276196479796,True,True,2026-01-13T17:44:06.145627
+./data/gtsrb/GTSRB/Training/00002/00041_00027.ppm,2,Speed limit (50km/h),2,Speed limit (50km/h),0.9945883750915528,2,Speed limit (50km/h),0.9945883750915528,True,True,2026-01-13T17:44:07.699070
+./data/gtsrb/GTSRB/Training/00028/00005_00011.ppm,28,Children crossing,28,Children crossing,0.9999924898147584,28,Children crossing,0.9999924898147584,True,True,2026-01-13T17:44:08.769735
+./data/gtsrb/GTSRB/Training/00004/00028_00019.ppm,4,Speed limit (70km/h),4,Speed limit (70km/h),0.9999392032623292,4,Speed limit (70km/h),0.9999392032623292,True,True,2026-01-13T17:44:09.938900
+./data/gtsrb/GTSRB/Training/00013/00005_00018.ppm,13,Yield,13,Yield,0.9999991655349731,13,Yield,0.9999991655349731,True,True,2026-01-13T17:44:12.928458
+./data/gtsrb/GTSRB/Training/00031/00005_00017.ppm,31,Wild animals crossing,31,Wild animals crossing,0.999918818473816,31,Wild animals crossing,0.999918818473816,True,True,2026-01-13T17:44:15.238251
+./data/gtsrb/GTSRB/Training/00011/00020_00013.ppm,11,Right-of-way at the next intersection,11,Right-of-way at the next intersection,0.9995074272155762,11,Right-of-way at the next intersection,0.9995074272155762,True,True,2026-01-13T17:44:19.511833
+./data/gtsrb/GTSRB/Training/00017/00015_00017.ppm,17,No entry,17,No entry,0.9999996423721312,17,No entry,0.9999996423721312,True,True,2026-01-13T17:44:20.610223
+./data/gtsrb/GTSRB/Training/00019/00001_00019.ppm,19,Dangerous curve to the left,19,Dangerous curve to the left,0.9999998807907104,19,Dangerous curve to the left,0.9999998807907104,True,True,2026-01-13T17:44:22.259040
+./data/gtsrb/GTSRB/Training/00018/00011_00017.ppm,18,General caution,18,General caution,0.9997468590736388,18,General caution,0.9997468590736388,True,True,2026-01-13T17:44:23.602669
+./data/gtsrb/GTSRB/Training/00017/00001_00026.ppm,17,No entry,17,No entry,0.9999939203262328,17,No entry,0.9999939203262328,True,True,2026-01-13T17:44:28.666540
+./data/gtsrb/GTSRB/Training/00033/00006_00015.ppm,33,Turn right ahead,33,Turn right ahead,0.9999734163284302,33,Turn right ahead,0.9999734163284302,True,True,2026-01-13T17:44:40.849397
+./data/gtsrb/GTSRB/Training/00031/00016_00009.ppm,31,Wild animals crossing,31,Wild animals crossing,0.999995231628418,31,Wild animals crossing,0.999995231628418,True,True,2026-01-13T17:44:42.637690
+./data/gtsrb/GTSRB/Training/00005/00026_00026.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9991833567619324,5,Speed limit (80km/h),0.9991833567619324,True,True,2026-01-13T17:44:46.043160
+./data/gtsrb/GTSRB/Training/00013/00033_00003.ppm,13,Yield,12,Priority road,0.6309190392494202,27,Pedestrians,0.0,False,False,2026-01-13T17:45:19.244950
+./data/gtsrb/GTSRB/Training/00013/00044_00006.ppm,13,Yield,13,Yield,0.9999988079071044,13,Yield,0.9999988079071044,True,True,2026-01-13T17:45:25.033655
+./data/gtsrb/GTSRB/Training/00018/00016_00001.ppm,18,General caution,18,General caution,0.9994646906852722,18,General caution,0.9994646906852722,True,True,2026-01-13T17:45:36.329859
+./data/gtsrb/GTSRB/Training/00001/00029_00020.ppm,1,Speed limit (30km/h),1,Speed limit (30km/h),0.999268352985382,1,Speed limit (30km/h),0.999268352985382,True,True,2026-01-13T17:45:37.596474
+./data/gtsrb/GTSRB/Training/00008/00013_00020.ppm,8,Speed limit (120km/h),8,Speed limit (120km/h),0.9561650156974792,8,Speed limit (120km/h),0.9561650156974792,True,True,2026-01-13T17:45:43.900384
+./data/gtsrb/GTSRB/Training/00005/00030_00020.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9999934434890748,5,Speed limit (80km/h),0.9999934434890748,True,True,2026-01-13T17:45:44.943987
+./data/gtsrb/GTSRB/Training/00012/00000_00026.ppm,12,Priority road,12,Priority road,1.0,12,Priority road,1.0,True,True,2026-01-13T17:45:48.135695
+./data/gtsrb/GTSRB/Training/00011/00006_00000.ppm,11,Right-of-way at the next intersection,26,Traffic signals,0.6964176297187805,11,Right-of-way at the next intersection,0.0,False,False,2026-01-13T17:48:01.808053
+./data/gtsrb/GTSRB/Training/00008/00003_00001.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.5422154068946838,0,Speed limit (20km/h),0.0,False,False,2026-01-13T17:48:21.647583
+./data/gtsrb/GTSRB/Training/00011/00006_00002.ppm,11,Right-of-way at the next intersection,26,Traffic signals,0.4944178164005279,11,Right-of-way at the next intersection,0.0,False,False,2026-01-13T17:50:08.503551
+./data/gtsrb/GTSRB/Training/00035/00023_00025.ppm,35,Ahead only,35,Ahead only,0.9999723434448242,35,Ahead only,0.9999723434448242,True,True,2026-01-13T17:50:11.251350
+./data/gtsrb/GTSRB/Training/00029/00004_00008.ppm,29,Bicycles crossing,29,Bicycles crossing,0.9999210834503174,29,Bicycles crossing,0.9999210834503174,True,True,2026-01-13T17:50:14.144108
+./data/gtsrb/GTSRB/Training/00009/00024_00003.ppm,9,No passing,9,No passing,0.9988453388214112,9,No passing,0.9988453388214112,True,True,2026-01-13T17:50:15.797130
+./data/gtsrb/GTSRB/Training/00017/00019_00012.ppm,17,No entry,17,No entry,0.9862765073776244,17,No entry,0.9862765073776244,True,True,2026-01-13T17:50:17.017151
+./data/gtsrb/GTSRB/Training/00009/00026_00011.ppm,9,No passing,5,Speed limit (80km/h),0.3972599506378174,11,Right-of-way at the next intersection,0.0,False,False,2026-01-13T17:50:21.328977
+./data/gtsrb/GTSRB/Training/00001/00042_00000.ppm,1,Speed limit (30km/h),1,Speed limit (30km/h),0.9996366500854492,1,Speed limit (30km/h),0.9996366500854492,True,True,2026-01-13T17:50:23.379639
+./data/gtsrb/GTSRB/Training/00034/00006_00003.ppm,34,Turn left ahead,34,Turn left ahead,0.9971411228179932,34,Turn left ahead,0.9971411228179932,True,True,2026-01-13T17:50:25.224000
+./data/gtsrb/GTSRB/Training/00008/00010_00020.ppm,8,Speed limit (120km/h),8,Speed limit (120km/h),0.8793010115623474,8,Speed limit (120km/h),0.8793010115623474,True,True,2026-01-13T17:50:26.233365
+./data/gtsrb/GTSRB/Training/00004/00008_00021.ppm,4,Speed limit (70km/h),4,Speed limit (70km/h),1.0,4,Speed limit (70km/h),1.0,True,True,2026-01-13T17:50:27.281427
+./data/gtsrb/GTSRB/Training/00013/00017_00005.ppm,13,Yield,13,Yield,0.9999997615814208,13,Yield,0.9999997615814208,True,True,2026-01-13T17:50:30.744271
+./data/gtsrb/GTSRB/Training/00004/00033_00016.ppm,4,Speed limit (70km/h),4,Speed limit (70km/h),0.9998389482498168,4,Speed limit (70km/h),0.9998389482498168,True,True,2026-01-13T17:50:32.425862
+./data/gtsrb/GTSRB/Training/00040/00002_00010.ppm,40,Roundabout mandatory,40,Roundabout mandatory,0.9999552965164183,40,Roundabout mandatory,0.9999552965164183,True,True,2026-01-13T17:50:35.118232
+./data/gtsrb/GTSRB/Training/00005/00028_00025.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9937359094619752,5,Speed limit (80km/h),0.9937359094619752,True,True,2026-01-13T17:50:38.034223
+./data/gtsrb/GTSRB/Training/00002/00011_00025.ppm,2,Speed limit (50km/h),2,Speed limit (50km/h),0.9975591897964478,2,Speed limit (50km/h),0.9975591897964478,True,True,2026-01-13T17:50:39.095028
+./data/gtsrb/GTSRB/Training/00001/00017_00014.ppm,1,Speed limit (30km/h),1,Speed limit (30km/h),0.99681156873703,1,Speed limit (30km/h),0.99681156873703,True,True,2026-01-13T17:50:40.889088
+./data/gtsrb/GTSRB/Training/00001/00015_00005.ppm,1,Speed limit (30km/h),1,Speed limit (30km/h),0.922000527381897,1,Speed limit (30km/h),0.922000527381897,True,True,2026-01-13T17:53:10.209159
+./data/gtsrb/GTSRB/Training/00004/00008_00013.ppm,4,Speed limit (70km/h),4,Speed limit (70km/h),1.0,4,Speed limit (70km/h),1.0,True,True,2026-01-13T17:53:11.678138
+./data/gtsrb/GTSRB/Training/00004/00041_00018.ppm,4,Speed limit (70km/h),4,Speed limit (70km/h),0.9999997615814208,4,Speed limit (70km/h),0.9999997615814208,True,True,2026-01-13T17:53:12.662587
+./data/gtsrb/GTSRB/Training/00005/00020_00017.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9999673366546632,11,Right-of-way at the next intersection,0.0,False,True,2026-01-13T17:53:22.404463
+./data/gtsrb/GTSRB/Training/00009/00000_00016.ppm,9,No passing,9,No passing,0.9988722205162048,11,Right-of-way at the next intersection,0.0,False,True,2026-01-13T17:53:26.541259
+./data/gtsrb/GTSRB/Training/00003/00006_00029.ppm,3,Speed limit (60km/h),3,Speed limit (60km/h),0.9770420789718628,3,Speed limit (60km/h),0.9770420789718628,True,True,2026-01-13T17:53:36.577274
+./data/gtsrb/GTSRB/Training/00011/00017_00025.ppm,11,Right-of-way at the next intersection,11,Right-of-way at the next intersection,0.9998680353164672,11,Right-of-way at the next intersection,0.9998680353164672,True,True,2026-01-13T17:53:41.524994
+./data/gtsrb/GTSRB/Training/00019/00004_00008.ppm,19,Dangerous curve to the left,19,Dangerous curve to the left,0.9924157857894896,19,Dangerous curve to the left,0.9924157857894896,True,True,2026-01-13T17:53:44.013155
+./data/gtsrb/GTSRB/Training/00020/00006_00020.ppm,20,Dangerous curve to the right,20,Dangerous curve to the right,0.9997310042381288,20,Dangerous curve to the right,0.9997310042381288,True,True,2026-01-13T17:53:45.286443
+./data/gtsrb/GTSRB/Training/00035/00019_00002.ppm,35,Ahead only,35,Ahead only,0.9999409914016724,35,Ahead only,0.9999409914016724,True,True,2026-01-13T17:53:48.511210
+./data/gtsrb/GTSRB/Training/00005/00010_00019.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9999423027038574,5,Speed limit (80km/h),0.9999423027038574,True,True,2026-01-13T17:53:51.722662
+./data/gtsrb/GTSRB/Training/00025/00003_00019.ppm,25,Road work,25,Road work,0.9997829794883728,25,Road work,0.9997829794883728,True,True,2026-01-13T17:53:58.420984
+./data/gtsrb/GTSRB/Training/00008/00022_00001.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.5131049156188965,11,Right-of-way at the next intersection,0.0,False,False,2026-01-13T17:54:10.986453
+./data/gtsrb/GTSRB/Training/00021/00001_00006.ppm,21,Double curve,24,Road narrows on the right,0.8129052519798279,24,Road narrows on the right,0.8129052519798279,True,False,2026-01-13T17:54:15.341355
+./data/gtsrb/GTSRB/Training/00038/00036_00009.ppm,38,Keep right,38,Keep right,0.9998667240142822,38,Keep right,0.9998667240142822,True,True,2026-01-13T17:54:24.432519
+./data/gtsrb/GTSRB/Training/00001/00036_00015.ppm,1,Speed limit (30km/h),1,Speed limit (30km/h),0.9945914149284364,1,Speed limit (30km/h),0.9945914149284364,True,True,2026-01-13T17:54:26.276721
+./data/gtsrb/GTSRB/Training/00006/00003_00010.ppm,6,End of speed limit (80km/h),6,End of speed limit (80km/h),0.9999788999557496,6,End of speed limit (80km/h),0.9999788999557496,True,True,2026-01-13T17:54:28.148587
+./data/gtsrb/GTSRB/Training/00033/00002_00025.ppm,33,Turn right ahead,33,Turn right ahead,0.9999998807907104,33,Turn right ahead,0.9999998807907104,True,True,2026-01-13T17:54:35.440470
+./data/gtsrb/GTSRB/Training/00003/00024_00003.ppm,3,Speed limit (60km/h),3,Speed limit (60km/h),0.4510528445243835,3,Speed limit (60km/h),0.4510528445243835,True,True,2026-01-13T17:54:46.420136
+./data/gtsrb/GTSRB/Training/00005/00015_00013.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9999885559082032,5,Speed limit (80km/h),0.9999885559082032,True,True,2026-01-13T17:54:47.794819
+./data/gtsrb/GTSRB/Training/00036/00008_00010.ppm,36,Go straight or right,36,Go straight or right,0.9999434947967528,36,Go straight or right,0.9999434947967528,True,True,2026-01-13T17:54:49.202298
+./data/gtsrb/GTSRB/Training/00031/00013_00022.ppm,31,Wild animals crossing,31,Wild animals crossing,0.9999988079071044,31,Wild animals crossing,0.9999988079071044,True,True,2026-01-13T17:54:50.187872
+./data/gtsrb/GTSRB/Training/00029/00004_00028.ppm,29,Bicycles crossing,29,Bicycles crossing,0.9975042939186096,29,Bicycles crossing,0.9975042939186096,True,True,2026-01-13T17:54:51.406996
+./data/gtsrb/GTSRB/Training/00001/00034_00022.ppm,1,Speed limit (30km/h),1,Speed limit (30km/h),0.998760461807251,1,Speed limit (30km/h),0.998760461807251,True,True,2026-01-13T17:54:52.323469
+./data/gtsrb/GTSRB/Training/00020/00005_00000.ppm,20,Dangerous curve to the right,20,Dangerous curve to the right,0.9999880790710448,20,Dangerous curve to the right,0.9999880790710448,True,True,2026-01-13T17:54:54.406219
+./data/gtsrb/GTSRB/Training/00010/00032_00027.ppm,10,No passing for vehicles over 3.5t,10,No passing for vehicles over 3.5t,0.9953206181526184,10,No passing for vehicles over 3.5t,0.9953206181526184,True,True,2026-01-13T17:54:59.707023
+./data/gtsrb/GTSRB/Training/00025/00005_00008.ppm,25,Road work,25,Road work,0.9987201690673828,25,Road work,0.9987201690673828,True,True,2026-01-13T17:55:01.372668
+./data/gtsrb/GTSRB/Training/00005/00016_00017.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.999997854232788,5,Speed limit (80km/h),0.999997854232788,True,True,2026-01-13T17:55:02.652136
+./data/gtsrb/GTSRB/Training/00012/00032_00002.ppm,12,Priority road,12,Priority road,0.999964714050293,12,Priority road,0.999964714050293,True,True,2026-01-13T17:55:04.634703
+./data/gtsrb/GTSRB/Training/00010/00018_00020.ppm,10,No passing for vehicles over 3.5t,10,No passing for vehicles over 3.5t,0.9989365935325624,10,No passing for vehicles over 3.5t,0.9989365935325624,True,True,2026-01-13T17:55:09.783955
+./data/gtsrb/GTSRB/Training/00023/00004_00019.ppm,23,Slippery road,23,Slippery road,0.9993477463722228,23,Slippery road,0.9993477463722228,True,True,2026-01-13T17:55:12.768362
