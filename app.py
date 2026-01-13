@@ -139,10 +139,10 @@ with col_left:
     except Exception as e:
         st.error(f"Could not load image path: {image_path}\nError: {e}")
 
-    st.markdown(
-        f"**True label** (for analysis): "
-        f"`{row.get('true_label_name', row['true_label_index'])}`"
-    )
+    # st.markdown(
+    #     f"**True label** (for analysis): "
+    #     f"`{row.get('true_label_name', row['true_label_index'])}`"
+    # )
 
 with col_right:
     st.subheader("Model's Top-5 Predictions")
