@@ -137,6 +137,13 @@ row = df.iloc[row_idx]
 
 image_path = row["image_path"]
 
+# reset dropdown when moving to a new image
+if "last_row_idx" not in st.session_state or st.session_state.last_row_idx != row_idx:
+    st.session_state.last_row_idx = row_idx
+    # dropdown back to placeholder
+    st.session_state.full_label_choice = full_label_placeholder
+
+
 col_left, col_right = st.columns([2, 1])
 
 with col_left:
@@ -147,10 +154,6 @@ with col_left:
     except Exception as e:
         st.error(f"Could not load image path: {image_path}\nError: {e}")
 
-    # st.markdown(
-    #     f"**True label** (for analysis): "
-    #     f"`{row.get('true_label_name', row['true_label_index'])}`"
-    # )
 
 with col_right:
     st.subheader("Model's Top-5 Predictions")
@@ -173,12 +176,12 @@ with col_right:
             selected_k, selected_idx, selected_name, selected_prob = k, idx, name, prob
             break
 
-    # NEW: full-label dropdown as backup
+    # full-label dropdown as backup
     st.markdown("If the correct class is **not** in the top-5, choose it here:")
     full_label_choice = st.selectbox(
         "Full label list (fallback):",
         options=[full_label_placeholder] + all_label_options,
-        index=0,
+        key="full_label_choice",
     )
 
     # Parse full-label choice if used
@@ -190,18 +193,34 @@ with col_right:
         full_label_idx = int(idx_str.strip())
         full_label_name = name_str.strip()
 
-    # Visual highlight of final choice (current selection)
-    st.markdown(
-        f"**Current chosen class:** :blue[`{selected_name}`] "
-        f"(prob = {selected_prob:.5f})"
-    )
+    # decide what to show in the *current* chosen class
+    # if dropdown used: show dropdown
+    # else: show radio top 5 selected
+    if full_label_idx is not None:
+        current_label = full_label_name
+        current_prob = None # unknown since not from top 5
+    else:
+        current_label = selected_name
+        current_prob = selected_prob
+
+    # visual of final choice
+    if current_prob is not None:
+        st.markdown(
+            f"**Current chosen class:** :blue[`{current_label}`] "
+            f"(prob = {current_prob:.5f})"
+        )
+    else:
+        st.markdown(
+            f"**Current chosen class:** :red[`{current_label}`] "
+            f"(from full list, prob N/A"
+        )
 
     st.markdown("### Actions")
 
     col_tick, col_cross = st.columns(2)
 
     with col_tick:
-        if st.button("✅ Accept model's top-1"):
+        if st.button("✅ Accept model's top 1"):
             # Final choice: top-1 prediction
             k1, idx1, name1, prob1 = top5[0]
             record_annotation(
