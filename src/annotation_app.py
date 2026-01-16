@@ -3,12 +3,9 @@ from datetime import datetime
 import streamlit as st
 import pandas as pd
 from PIL import Image
-import torch
-from torch.utils.data import random_split
-from torchvision import transforms
 
-from src import dataset
-from src import configure
+import dataset
+import configure
 
 @st.cache_data
 def load_predictions(csv_path: str) -> pd.DataFrame:
