@@ -1,12 +1,18 @@
-# to run the app: streamlit run src/annotation_app.py
 import os
+import sys
 from datetime import datetime
 import streamlit as st
 import pandas as pd
 from PIL import Image
+# src in previous level
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
+from src import configure, dataset
 
-import dataset
-import configure
+# adapted from the annotation_app.py
+TEST_ANNOTATIONS_CSV_PATH = os.path.join(PROJECT_ROOT, "test_and_evaluation", configure.TEST_ANNOTATIONS_CSV)
+TEST_HUMAN_CSV_PATH = os.path.join(PROJECT_ROOT, "test_and_evaluation", configure.TEST_HUMAN_CSV)
 
 @st.cache_data
 def load_predictions(csv_path: str) -> pd.DataFrame:
@@ -35,8 +41,8 @@ def init_session_state(df: pd.DataFrame):
 
     if "annotations" not in st.session_state:
         # If we already have an annotations file, load it and skip labeled images
-        if os.path.exists(configure.ANNOTATIONS_CSV):
-            st.session_state.annotations = pd.read_csv(configure.ANNOTATIONS_CSV)
+        if os.path.exists(TEST_ANNOTATIONS_CSV_PATH):
+            st.session_state.annotations = pd.read_csv(TEST_ANNOTATIONS_CSV_PATH)
             labeled_paths = set(st.session_state.annotations["image_path"].tolist())
 
             st.session_state.row_idx = 0
@@ -54,7 +60,7 @@ def init_session_state(df: pd.DataFrame):
 
 
 def save_annotations_to_disk():
-    st.session_state.annotations.to_csv(configure.ANNOTATIONS_CSV, index=False)
+    st.session_state.annotations.to_csv(TEST_ANNOTATIONS_CSV_PATH, index=False)
 
 
 def record_annotation(row: pd.Series,
@@ -95,20 +101,20 @@ def record_annotation(row: pd.Series,
 # STREAMLIT UI
 # -------------------
 
-st.set_page_config(page_title="GTSRB Human Audit", layout="wide")
+st.set_page_config(page_title="Human Audit", layout="wide")
 
-st.title("Human Audit of First-Round Predictions")
+st.title("Human Audit of AI Predictions")
 st.write(
     "For each image, you see the model's top-5 predictions. "
     "Use **Tick** to accept the model's top-1 prediction, or **Cross** to choose a different one."
 )
 
 # Load predictions CSV
-if not os.path.exists(configure.PREDICTIONS_CSV):
-    st.error(f"Predictions CSV not found: {configure.PREDICTIONS_CSV}")
+if not os.path.exists(TEST_HUMAN_CSV_PATH):
+    st.error(f"Predictions CSV not found: {TEST_HUMAN_CSV_PATH}")
     st.stop()
 
-df = load_predictions(configure.PREDICTIONS_CSV)
+df = load_predictions(TEST_HUMAN_CSV_PATH)
 num_rows = len(df)
 
 if num_rows == 0:
@@ -258,7 +264,7 @@ with col_right:
 
 st.markdown("---")
 st.caption(
-    f"Annotations are saved incrementally to `{configure.ANNOTATIONS_CSV}`. "
+    f"Annotations are saved incrementally to `{TEST_ANNOTATIONS_CSV_PATH}`. "
     "You can stop and continue later — progress is tracked by image path."
 )
 

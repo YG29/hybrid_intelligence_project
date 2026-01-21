@@ -34,7 +34,7 @@ def main():
     feat_extractor = utils.ResNetFeatureExtractor(configure.MODEL_PATH, num_classes=43).to(configure.DEVICE)
 
     # 4) K-fold setup
-    K = getattr(configure, "DELEGATION_K_FOLDS", 3)
+    K = getattr(configure, "DELEGATION_K_FOLDS", 2)
     kf = KFold(n_splits=K, shuffle=True, random_state=configure.RANDOM_SEED)
 
     fold_results = []
@@ -63,7 +63,13 @@ def main():
         )
 
         # New delegation head per fold
-        head = utils.DelegationHead(feature_dim=512, prob_dim=5, hidden_dim=128).to(configure.DEVICE)
+        head = utils.DelegationHead(
+            feature_dim=512,
+            prob_dim=5,
+            hidden_dim1=256,
+            hidden_dim2=128,
+            dropout=0.3,
+        ).to(configure.DEVICE)
         criterion = nn.CrossEntropyLoss()
         optimizer = optim.Adam(head.parameters(), lr=configure.DEL_LEARNING_RATE)
 

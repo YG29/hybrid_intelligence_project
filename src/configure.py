@@ -1,4 +1,4 @@
-DATA_ROOT = "./data"
+DATA_ROOT = "data"
 BATCH_SIZE = 64
 NUM_EPOCHS = 3
 LEARNING_RATE = 1e-3
@@ -18,3 +18,5 @@ DEVICE = "cpu"
 TEST_PREDICTIONS_CSV = "test_predictions.csv"
 TEST_HUMAN_CSV = "test_delegation_human.csv"
 TEST_MODEL_CSV = "test_delegation_model.csv"
+DELEGATION_PATH = "../checkpoints/delegation_head_kfold_best.pth"
+TEST_ANNOTATIONS_CSV = "test_human_annotations.csv"

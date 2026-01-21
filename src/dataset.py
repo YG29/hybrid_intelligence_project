@@ -65,36 +65,56 @@ class GTSRBWithPaths(Dataset):
             transform=transform,
             download=download,
         )
+
         self.root = root
         self.split = split
 
         # Build paths in the same order as torchvision loads them
-        self.paths = self._build_paths_list()
+        self.paths = self._build_paths_list(self.split)
 
         # If you still want class names:
         self.classes = [gtsrb_class_names[i] for i in range(len(gtsrb_class_names))]
 
-    def _build_paths_list(self):
+    def _build_paths_list(self, split: str):
         """
         Build a list of image file paths that matches the order of self.base_dataset.
-        Torchvision loads train images from Final_Training/Images/<class_id>/*.ppm
-        in sorted order, so we do the same.
-        """
-        img_root = os.path.join(self.root, "gtsrb", "GTSRB", "Training")
 
-        all_paths = []
-        # class folders: 00000, 00001, ..., 00042
-        for class_id in sorted(os.listdir(img_root)):
-            if not class_id.isdigit():
-                continue
-            class_folder = os.path.join(img_root, class_id)
-            for fname in sorted(os.listdir(class_folder)):
+        Train: folders 00000..00042 each containing .ppm images
+        Test: single folder containing 00000.ppm..12629.ppm
+        """
+        if split == "train":
+            # <root>/gtsrb/GTSRB/Training/00000/*.ppm ... 00042/*.ppm
+            img_root = os.path.join(self.root, "gtsrb", "GTSRB", "Training")
+
+            all_paths = []
+            for class_id in sorted(os.listdir(img_root)):
+                if not class_id.isdigit():
+                    continue
+                class_folder = os.path.join(img_root, class_id)
+                for fname in sorted(os.listdir(class_folder)):
+                    if fname.lower().endswith(".ppm"):
+                        all_paths.append(os.path.join(class_folder, fname))
+
+        elif split == "test":
+            # <root>/gtsrb/GTSRB/Final_Test/Images/*.ppm
+            # (or sometimes Final_Test contains images directly — we handle both)
+            base_test = os.path.join(self.root, "gtsrb", "GTSRB", "Final_Test")
+            img_root = os.path.join(base_test, "Images")
+            if not os.path.isdir(img_root):
+                img_root = base_test  # fallback if images are directly under Final_Test
+
+            all_paths = []
+            for fname in sorted(os.listdir(img_root)):
                 if fname.lower().endswith(".ppm"):
-                    all_paths.append(os.path.join(class_folder, fname))
+                    all_paths.append(os.path.join(img_root, fname))
+
+        else:
+            raise ValueError(f"Unknown split: {split}")
 
         if len(all_paths) != len(self.base_dataset):
             print("⚠️ Warning: number of paths != dataset length.")
             print("Paths:", len(all_paths), " | Dataset:", len(self.base_dataset))
+            print("img_root:", img_root)
 
         return all_paths
 
@@ -103,5 +123,13 @@ class GTSRBWithPaths(Dataset):
 
     def __getitem__(self, idx: int):
         img, label = self.base_dataset[idx]
-        path = self.paths[idx]
+
+        # Guard: if paths list is shorter than dataset, fall back to empty string
+        if idx < len(self.paths):
+            path = self.paths[idx]
+        else:
+            # Optional: log once if you want
+            # print(f"Warning: idx {idx} has no path, using empty string.")
+            path = ""
+
         return img, label, path

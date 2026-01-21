@@ -292,12 +292,30 @@ class DelegationHead(nn.Module):
     Output: logits for 2 classes: 0=model, 1=human_assist
     """
 
-    def __init__(self, feature_dim: int = 512, prob_dim: int = 5, hidden_dim: int = 128):
+    def __init__(
+        self,
+        feature_dim: int = 512,
+        prob_dim: int = 5,
+        hidden_dim1: int = 256,
+        hidden_dim2: int = 128,
+        dropout: float = 0.3,
+    ):
         super().__init__()
+
+        input_dim = feature_dim + prob_dim  # 517
+
         self.net = nn.Sequential(
-            nn.Linear(feature_dim + prob_dim, hidden_dim),
+            nn.Linear(input_dim, hidden_dim1),
+            nn.BatchNorm1d(hidden_dim1),
             nn.ReLU(),
-            nn.Linear(hidden_dim, 2),
+            nn.Dropout(dropout),
+
+            nn.Linear(hidden_dim1, hidden_dim2),
+            nn.BatchNorm1d(hidden_dim2),
+            nn.ReLU(),
+            nn.Dropout(dropout),
+
+            nn.Linear(hidden_dim2, 2),
         )
 
     def forward(self, feat: torch.Tensor, probs: torch.Tensor) -> torch.Tensor:
