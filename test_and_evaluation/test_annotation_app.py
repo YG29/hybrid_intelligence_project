@@ -1,3 +1,4 @@
+# to run the app: streamlit run test_and_evaluation/test_annotation_app.py
 import os
 import sys
 from datetime import datetime
