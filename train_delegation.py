@@ -34,7 +34,7 @@ def main():
     feat_extractor = utils.ResNetFeatureExtractor(configure.MODEL_PATH, num_classes=43).to(configure.DEVICE)
 
     # 4) K-fold setup
-    K = getattr(configure, "DELEGATION_K_FOLDS", 2)
+    K = getattr(configure, "DELEGATION_K_FOLDS", 3)
     kf = KFold(n_splits=K, shuffle=True, random_state=configure.RANDOM_SEED)
 
     fold_results = []
