@@ -1,0 +1,216 @@
+image_path,true_label_index,true_label_name,top1_index,top1_name,top1_prob,human_label_index,human_label_name,human_label_prob,accepted_top1,model_top1_correct,timestamp
+data/gtsrb/GTSRB/Final_Test/Images/00012.ppm,23,Slippery road,29,Bicycles crossing,0.9336475729942322,23,Slippery road,0.0112425154075026,False,False,2026-01-23T13:32:08.569863
+data/gtsrb/GTSRB/Final_Test/Images/00033.ppm,23,Slippery road,29,Bicycles crossing,0.4797620773315429,23,Slippery road,0.0093822348862886,False,False,2026-01-23T13:32:22.485773
+data/gtsrb/GTSRB/Final_Test/Images/00039.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.9365912675857544,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:32:52.020532
+data/gtsrb/GTSRB/Final_Test/Images/00247.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.9634755849838256,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:32:57.705544
+data/gtsrb/GTSRB/Final_Test/Images/00265.ppm,12,Priority road,13,Yield,0.414671391248703,12,Priority road,0.1099834144115448,False,False,2026-01-23T13:33:04.186093
+data/gtsrb/GTSRB/Final_Test/Images/00302.ppm,2,Speed limit (50km/h),5,Speed limit (80km/h),0.8608191013336182,2,Speed limit (50km/h),0.0873820856213569,False,False,2026-01-23T13:33:07.715504
+data/gtsrb/GTSRB/Final_Test/Images/00393.ppm,2,Speed limit (50km/h),2,Speed limit (50km/h),0.4818052947521209,2,Speed limit (50km/h),0.4818052947521209,True,True,2026-01-23T13:33:10.636192
+data/gtsrb/GTSRB/Final_Test/Images/00760.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.9968204498291016,3,Speed limit (60km/h),0.0019897343590855,False,False,2026-01-23T13:33:13.942914
+data/gtsrb/GTSRB/Final_Test/Images/00805.ppm,2,Speed limit (50km/h),2,Speed limit (50km/h),0.5339633822441101,2,Speed limit (50km/h),0.5339633822441101,True,True,2026-01-23T13:33:15.991007
+data/gtsrb/GTSRB/Final_Test/Images/00858.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.9964237809181212,3,Speed limit (60km/h),0.0015124586643651,False,False,2026-01-23T13:33:19.966259
+data/gtsrb/GTSRB/Final_Test/Images/00919.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.999525547027588,5,Speed limit (80km/h),0.999525547027588,True,True,2026-01-23T13:33:26.708388
+data/gtsrb/GTSRB/Final_Test/Images/00931.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9948828220367432,5,Speed limit (80km/h),0.9948828220367432,True,True,2026-01-23T13:33:41.329992
+data/gtsrb/GTSRB/Final_Test/Images/01088.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9821098446846008,5,Speed limit (80km/h),0.9821098446846008,True,True,2026-01-23T13:33:43.209789
+data/gtsrb/GTSRB/Final_Test/Images/01104.ppm,23,Slippery road,5,Speed limit (80km/h),0.955949068069458,23,Slippery road,0.0,False,False,2026-01-23T13:34:16.421029
+data/gtsrb/GTSRB/Final_Test/Images/01105.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.8889020085334778,3,Speed limit (60km/h),0.0163986179977655,False,True,2026-01-23T13:34:31.775962
+data/gtsrb/GTSRB/Final_Test/Images/01231.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.999545156955719,3,Speed limit (60km/h),0.0001259784476133,False,True,2026-01-23T13:34:36.441151
+data/gtsrb/GTSRB/Final_Test/Images/01275.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.9666106700897216,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:34:45.893307
+data/gtsrb/GTSRB/Final_Test/Images/01298.ppm,28,Children crossing,28,Children crossing,0.999693751335144,28,Children crossing,0.999693751335144,True,True,2026-01-23T13:34:49.047617
+data/gtsrb/GTSRB/Final_Test/Images/01364.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.5096365213394165,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:34:59.011076
+data/gtsrb/GTSRB/Final_Test/Images/01492.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9910956621170044,3,Speed limit (60km/h),0.0006757173105143,False,True,2026-01-23T13:35:20.769494
+data/gtsrb/GTSRB/Final_Test/Images/01573.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.9934629201889038,3,Speed limit (60km/h),0.0008385209366679,False,False,2026-01-23T13:35:25.524585
+data/gtsrb/GTSRB/Final_Test/Images/01820.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9986875653266908,3,Speed limit (60km/h),7.959200593177229e-05,False,True,2026-01-23T13:35:36.342761
+data/gtsrb/GTSRB/Final_Test/Images/01832.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9786229133605956,5,Speed limit (80km/h),0.9786229133605956,True,True,2026-01-23T13:35:39.840123
+data/gtsrb/GTSRB/Final_Test/Images/01884.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.8560657501220703,5,Speed limit (80km/h),0.8560657501220703,True,True,2026-01-23T13:35:42.417637
+data/gtsrb/GTSRB/Final_Test/Images/01939.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9630300402641296,3,Speed limit (60km/h),0.0049600908532738,False,True,2026-01-23T13:35:50.161408
+data/gtsrb/GTSRB/Final_Test/Images/02002.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.8689926266670227,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:35:57.317734
+data/gtsrb/GTSRB/Final_Test/Images/02191.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9824657440185548,5,Speed limit (80km/h),0.9824657440185548,True,True,2026-01-23T13:35:59.770083
+data/gtsrb/GTSRB/Final_Test/Images/02235.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.9485753178596495,8,Speed limit (120km/h),0.003017128445208,False,False,2026-01-23T13:36:03.216343
+data/gtsrb/GTSRB/Final_Test/Images/02397.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.9901354908943176,3,Speed limit (60km/h),0.0028627822175621,False,False,2026-01-23T13:36:07.261445
+data/gtsrb/GTSRB/Final_Test/Images/02476.ppm,23,Slippery road,29,Bicycles crossing,0.9043603539466858,23,Slippery road,0.005029363092035,False,False,2026-01-23T13:36:11.134124
+data/gtsrb/GTSRB/Final_Test/Images/02538.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.988391935825348,3,Speed limit (60km/h),0.0064032524824142,False,False,2026-01-23T13:36:14.508884
+data/gtsrb/GTSRB/Final_Test/Images/02559.ppm,23,Slippery road,5,Speed limit (80km/h),0.6607678532600403,23,Slippery road,0.0,False,False,2026-01-23T13:36:29.544922
+data/gtsrb/GTSRB/Final_Test/Images/02635.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9975715279579164,5,Speed limit (80km/h),0.9975715279579164,True,True,2026-01-23T13:36:31.825901
+data/gtsrb/GTSRB/Final_Test/Images/02637.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9852173924446106,3,Speed limit (60km/h),0.0074560912325978,False,True,2026-01-23T13:36:41.148684
+data/gtsrb/GTSRB/Final_Test/Images/02687.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.6592395305633545,1,Speed limit (30km/h),0.0302823446691036,False,True,2026-01-23T13:36:52.920845
+data/gtsrb/GTSRB/Final_Test/Images/02699.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9399750232696532,2,Speed limit (50km/h),0.0067774984054267,False,True,2026-01-23T13:37:03.054500
+data/gtsrb/GTSRB/Final_Test/Images/02700.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9992632269859314,5,Speed limit (80km/h),0.9992632269859314,True,True,2026-01-23T13:37:05.546992
+data/gtsrb/GTSRB/Final_Test/Images/02753.ppm,5,Speed limit (80km/h),33,Turn right ahead,0.2453644424676895,5,Speed limit (80km/h),0.1225104480981826,False,False,2026-01-23T13:37:10.770714
+data/gtsrb/GTSRB/Final_Test/Images/02758.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.988624095916748,5,Speed limit (80km/h),0.988624095916748,True,True,2026-01-23T13:37:13.019397
+data/gtsrb/GTSRB/Final_Test/Images/02803.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9977693557739258,5,Speed limit (80km/h),0.9977693557739258,True,True,2026-01-23T13:37:24.164957
+data/gtsrb/GTSRB/Final_Test/Images/02836.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.675514280796051,5,Speed limit (80km/h),0.675514280796051,True,True,2026-01-23T13:37:26.114054
+data/gtsrb/GTSRB/Final_Test/Images/02846.ppm,23,Slippery road,29,Bicycles crossing,0.8443228006362915,23,Slippery road,0.0044192201457917,False,False,2026-01-23T13:37:29.707984
+data/gtsrb/GTSRB/Final_Test/Images/02860.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9714861512184144,3,Speed limit (60km/h),0.0033486715983599,False,True,2026-01-23T13:37:34.224532
+data/gtsrb/GTSRB/Final_Test/Images/02864.ppm,30,Beware of ice/snow,28,Children crossing,0.4878691136837005,30,Beware of ice/snow,0.4181229472160339,False,False,2026-01-23T13:37:39.762246
+data/gtsrb/GTSRB/Final_Test/Images/02954.ppm,23,Slippery road,5,Speed limit (80km/h),0.7464858889579773,23,Slippery road,0.0,False,False,2026-01-23T13:37:51.078098
+data/gtsrb/GTSRB/Final_Test/Images/02999.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9972550272941588,5,Speed limit (80km/h),0.9972550272941588,True,True,2026-01-23T13:37:53.684040
+data/gtsrb/GTSRB/Final_Test/Images/03086.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.7060534358024597,1,Speed limit (30km/h),0.0587405674159526,False,False,2026-01-23T13:38:28.800851
+data/gtsrb/GTSRB/Final_Test/Images/03112.ppm,23,Slippery road,29,Bicycles crossing,0.6313348412513733,23,Slippery road,0.0173048973083496,False,False,2026-01-23T13:38:34.280111
+data/gtsrb/GTSRB/Final_Test/Images/03114.ppm,23,Slippery road,29,Bicycles crossing,0.9339221119880676,23,Slippery road,0.0030847215093672,False,False,2026-01-23T13:38:37.931367
+data/gtsrb/GTSRB/Final_Test/Images/03138.ppm,7,Speed limit (100km/h),7,Speed limit (100km/h),0.6109320521354675,8,Speed limit (120km/h),0.0,False,True,2026-01-23T13:38:55.281119
+data/gtsrb/GTSRB/Final_Test/Images/03159.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9983468055725098,4,Speed limit (70km/h),0.0,False,True,2026-01-23T13:39:10.692017
+data/gtsrb/GTSRB/Final_Test/Images/03262.ppm,2,Speed limit (50km/h),5,Speed limit (80km/h),0.4282931685447693,2,Speed limit (50km/h),0.2605609595775604,False,False,2026-01-23T13:39:14.117392
+data/gtsrb/GTSRB/Final_Test/Images/03296.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.985450029373169,3,Speed limit (60km/h),0.0041552251204848,False,False,2026-01-23T13:39:17.257978
+data/gtsrb/GTSRB/Final_Test/Images/03370.ppm,12,Priority road,12,Priority road,0.3986142873764038,12,Priority road,0.3986142873764038,True,True,2026-01-23T13:39:20.764292
+data/gtsrb/GTSRB/Final_Test/Images/03373.ppm,23,Slippery road,5,Speed limit (80km/h),0.9468532204627992,23,Slippery road,0.0,False,False,2026-01-23T13:39:30.938610
+data/gtsrb/GTSRB/Final_Test/Images/03389.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.7659261226654053,5,Speed limit (80km/h),0.7659261226654053,True,True,2026-01-23T13:40:04.966260
+data/gtsrb/GTSRB/Final_Test/Images/03399.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9997525811195374,8,Speed limit (120km/h),0.0,False,True,2026-01-23T13:40:14.771320
+data/gtsrb/GTSRB/Final_Test/Images/03562.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.949819803237915,5,Speed limit (80km/h),0.949819803237915,True,True,2026-01-23T13:40:18.892551
+data/gtsrb/GTSRB/Final_Test/Images/03595.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.9997872710227966,3,Speed limit (60km/h),6.62609891151078e-05,False,False,2026-01-23T13:40:23.607163
+data/gtsrb/GTSRB/Final_Test/Images/03633.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9997016787528992,5,Speed limit (80km/h),0.9997016787528992,True,True,2026-01-23T13:40:27.479916
+data/gtsrb/GTSRB/Final_Test/Images/03660.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.9893675446510316,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:40:36.097637
+data/gtsrb/GTSRB/Final_Test/Images/03796.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9996668100357056,5,Speed limit (80km/h),0.9996668100357056,True,True,2026-01-23T13:40:38.734448
+data/gtsrb/GTSRB/Final_Test/Images/03834.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9917923212051392,3,Speed limit (60km/h),0.0012414701050147,False,True,2026-01-23T13:40:43.181199
+data/gtsrb/GTSRB/Final_Test/Images/03857.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9741567373275756,8,Speed limit (120km/h),0.0,False,True,2026-01-23T13:40:53.618364
+data/gtsrb/GTSRB/Final_Test/Images/03930.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.9864147305488586,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:41:00.648529
+data/gtsrb/GTSRB/Final_Test/Images/04033.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9720303416252136,2,Speed limit (50km/h),0.0,False,True,2026-01-23T13:41:10.309438
+data/gtsrb/GTSRB/Final_Test/Images/04072.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.9748393893241882,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:41:15.357022
+data/gtsrb/GTSRB/Final_Test/Images/04116.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.943531334400177,3,Speed limit (60km/h),0.0,False,True,2026-01-23T13:41:24.641856
+data/gtsrb/GTSRB/Final_Test/Images/04164.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9997463822364808,5,Speed limit (80km/h),0.9997463822364808,True,True,2026-01-23T13:41:27.141465
+data/gtsrb/GTSRB/Final_Test/Images/04245.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9971981048583984,3,Speed limit (60km/h),0.0007043090881779,False,True,2026-01-23T13:41:33.032763
+data/gtsrb/GTSRB/Final_Test/Images/04300.ppm,23,Slippery road,23,Slippery road,0.9939398765563964,23,Slippery road,0.9939398765563964,True,True,2026-01-23T13:41:35.393680
+data/gtsrb/GTSRB/Final_Test/Images/04449.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.9916298985481262,3,Speed limit (60km/h),0.0013614750932902,False,False,2026-01-23T13:41:38.958032
+data/gtsrb/GTSRB/Final_Test/Images/04484.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9995802044868468,5,Speed limit (80km/h),0.9995802044868468,True,True,2026-01-23T13:41:41.790900
+data/gtsrb/GTSRB/Final_Test/Images/04543.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.4342529773712158,3,Speed limit (60km/h),0.3312017619609833,False,False,2026-01-23T13:41:46.699025
+data/gtsrb/GTSRB/Final_Test/Images/04560.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9952614903450012,5,Speed limit (80km/h),0.9952614903450012,True,True,2026-01-23T13:41:49.812855
+data/gtsrb/GTSRB/Final_Test/Images/04575.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.6120949983596802,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:41:56.008499
+data/gtsrb/GTSRB/Final_Test/Images/04588.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.8676212430000305,3,Speed limit (60km/h),0.0539905726909637,False,False,2026-01-23T13:42:01.257275
+data/gtsrb/GTSRB/Final_Test/Images/04659.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9952817559242249,2,Speed limit (50km/h),0.0020125701557844,False,True,2026-01-23T13:42:04.035728
+data/gtsrb/GTSRB/Final_Test/Images/04786.ppm,23,Slippery road,29,Bicycles crossing,0.8839229345321655,23,Slippery road,0.0056436830200254,False,False,2026-01-23T13:42:08.251332
+data/gtsrb/GTSRB/Final_Test/Images/04812.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9994304776191713,3,Speed limit (60km/h),0.0001533388858661,False,True,2026-01-23T13:42:14.575898
+data/gtsrb/GTSRB/Final_Test/Images/04935.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.7062067985534668,8,Speed limit (120km/h),0.0,False,True,2026-01-23T13:42:21.652746
+data/gtsrb/GTSRB/Final_Test/Images/04946.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9995525479316713,8,Speed limit (120km/h),0.0,False,True,2026-01-23T13:42:28.900459
+data/gtsrb/GTSRB/Final_Test/Images/04962.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9989330172538756,7,Speed limit (100km/h),0.0,False,True,2026-01-23T13:42:35.968318
+data/gtsrb/GTSRB/Final_Test/Images/05093.ppm,23,Slippery road,5,Speed limit (80km/h),0.409527450799942,23,Slippery road,0.077255792915821,False,False,2026-01-23T13:42:40.203730
+data/gtsrb/GTSRB/Final_Test/Images/05100.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9998599290847778,8,Speed limit (120km/h),0.0,False,True,2026-01-23T13:42:50.031784
+data/gtsrb/GTSRB/Final_Test/Images/05157.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.99985671043396,3,Speed limit (60km/h),3.716531864483841e-05,False,True,2026-01-23T13:42:55.117721
+data/gtsrb/GTSRB/Final_Test/Images/05161.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9923896193504332,5,Speed limit (80km/h),0.9923896193504332,True,True,2026-01-23T13:42:57.684310
+data/gtsrb/GTSRB/Final_Test/Images/05262.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.9820104241371156,3,Speed limit (60km/h),0.0046172672882676,False,False,2026-01-23T13:43:05.246917
+data/gtsrb/GTSRB/Final_Test/Images/05289.ppm,23,Slippery road,29,Bicycles crossing,0.9584031105041504,23,Slippery road,0.0107547380030155,False,False,2026-01-23T13:43:12.528879
+data/gtsrb/GTSRB/Final_Test/Images/05349.ppm,23,Slippery road,23,Slippery road,0.9911652207374572,23,Slippery road,0.9911652207374572,True,True,2026-01-23T13:43:14.905248
+data/gtsrb/GTSRB/Final_Test/Images/05361.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9996293783187866,3,Speed limit (60km/h),4.479102426557802e-05,False,True,2026-01-23T13:43:22.553100
+data/gtsrb/GTSRB/Final_Test/Images/05428.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9912603497505188,5,Speed limit (80km/h),0.9912603497505188,True,True,2026-01-23T13:43:27.491953
+data/gtsrb/GTSRB/Final_Test/Images/05464.ppm,23,Slippery road,29,Bicycles crossing,0.8540570139884949,23,Slippery road,0.0114371916279196,False,False,2026-01-23T13:43:32.246427
+data/gtsrb/GTSRB/Final_Test/Images/05565.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.8036785125732422,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:43:37.594236
+data/gtsrb/GTSRB/Final_Test/Images/05629.ppm,23,Slippery road,5,Speed limit (80km/h),0.5091230869293213,23,Slippery road,0.011126478202641,False,False,2026-01-23T13:43:42.333496
+data/gtsrb/GTSRB/Final_Test/Images/05641.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.7914039492607117,3,Speed limit (60km/h),0.0696690753102302,False,False,2026-01-23T13:43:47.593432
+data/gtsrb/GTSRB/Final_Test/Images/05651.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9998063445091248,5,Speed limit (80km/h),0.9998063445091248,True,True,2026-01-23T13:43:50.003726
+data/gtsrb/GTSRB/Final_Test/Images/05675.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.9868348240852356,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:43:55.310724
+data/gtsrb/GTSRB/Final_Test/Images/05785.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9994900226593018,5,Speed limit (80km/h),0.9994900226593018,True,True,2026-01-23T13:43:58.373817
+data/gtsrb/GTSRB/Final_Test/Images/05911.ppm,10,No passing for vehicles over 3.5t,5,Speed limit (80km/h),0.6562841534614563,10,No passing for vehicles over 3.5t,0.1591848582029342,False,False,2026-01-23T13:44:09.434898
+data/gtsrb/GTSRB/Final_Test/Images/06013.ppm,23,Slippery road,5,Speed limit (80km/h),0.5311039686203003,23,Slippery road,0.0,False,False,2026-01-23T13:44:21.422567
+data/gtsrb/GTSRB/Final_Test/Images/06095.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9986565113067628,5,Speed limit (80km/h),0.9986565113067628,True,True,2026-01-23T13:44:28.517184
+data/gtsrb/GTSRB/Final_Test/Images/06177.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.6973971128463745,5,Speed limit (80km/h),0.6973971128463745,True,False,2026-01-23T13:44:36.614456
+data/gtsrb/GTSRB/Final_Test/Images/06244.ppm,23,Slippery road,23,Slippery road,0.9793537855148317,23,Slippery road,0.9793537855148317,True,True,2026-01-23T13:44:39.732731
+data/gtsrb/GTSRB/Final_Test/Images/06339.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.99619859457016,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:44:45.788906
+data/gtsrb/GTSRB/Final_Test/Images/06363.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.999297857284546,4,Speed limit (70km/h),0.0,False,True,2026-01-23T13:44:55.793707
+data/gtsrb/GTSRB/Final_Test/Images/06451.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9965793490409852,5,Speed limit (80km/h),0.9965793490409852,True,True,2026-01-23T13:45:02.702084
+data/gtsrb/GTSRB/Final_Test/Images/06498.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9974195957183838,5,Speed limit (80km/h),0.9974195957183838,True,True,2026-01-23T13:45:06.029292
+data/gtsrb/GTSRB/Final_Test/Images/06588.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9988308548927308,3,Speed limit (60km/h),0.0001811998226912,False,True,2026-01-23T13:45:11.273514
+data/gtsrb/GTSRB/Final_Test/Images/06613.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.7717296481132507,5,Speed limit (80km/h),0.7717296481132507,True,False,2026-01-23T13:45:15.824815
+data/gtsrb/GTSRB/Final_Test/Images/06614.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9491185545921326,2,Speed limit (50km/h),0.0026231065858155,False,True,2026-01-23T13:45:22.038560
+data/gtsrb/GTSRB/Final_Test/Images/06828.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9926447868347168,5,Speed limit (80km/h),0.9926447868347168,True,True,2026-01-23T13:45:25.944131
+data/gtsrb/GTSRB/Final_Test/Images/06874.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.6199507117271423,3,Speed limit (60km/h),0.2203374803066253,False,False,2026-01-23T13:45:31.495868
+data/gtsrb/GTSRB/Final_Test/Images/06883.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.5742270946502686,2,Speed limit (50km/h),0.0,False,True,2026-01-23T13:45:40.484969
+data/gtsrb/GTSRB/Final_Test/Images/06910.ppm,7,Speed limit (100km/h),5,Speed limit (80km/h),0.8561495542526245,7,Speed limit (100km/h),0.0,False,False,2026-01-23T13:45:46.491247
+data/gtsrb/GTSRB/Final_Test/Images/06913.ppm,23,Slippery road,5,Speed limit (80km/h),0.8967318534851074,23,Slippery road,0.0,False,False,2026-01-23T13:45:57.033361
+data/gtsrb/GTSRB/Final_Test/Images/07033.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9704880714416504,5,Speed limit (80km/h),0.9704880714416504,True,True,2026-01-23T13:45:59.538421
+data/gtsrb/GTSRB/Final_Test/Images/07087.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9998363256454468,3,Speed limit (60km/h),4.0869439544621855e-05,False,True,2026-01-23T13:46:04.775720
+data/gtsrb/GTSRB/Final_Test/Images/07097.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.9865617156028748,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:46:10.137777
+data/gtsrb/GTSRB/Final_Test/Images/07109.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.984555184841156,5,Speed limit (80km/h),0.984555184841156,True,True,2026-01-23T13:46:12.867667
+data/gtsrb/GTSRB/Final_Test/Images/07157.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.647522509098053,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:46:18.379607
+data/gtsrb/GTSRB/Final_Test/Images/07160.ppm,7,Speed limit (100km/h),5,Speed limit (80km/h),0.931303083896637,7,Speed limit (100km/h),0.0263418182730674,False,False,2026-01-23T13:46:22.498488
+data/gtsrb/GTSRB/Final_Test/Images/07263.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.999638557434082,3,Speed limit (60km/h),0.000115900489618,False,True,2026-01-23T13:46:26.979832
+data/gtsrb/GTSRB/Final_Test/Images/07288.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9986408352851868,3,Speed limit (60km/h),8.789639105089009e-05,False,True,2026-01-23T13:46:34.277849
+data/gtsrb/GTSRB/Final_Test/Images/07323.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.998626708984375,3,Speed limit (60km/h),0.0002844510308932,False,True,2026-01-23T13:46:38.089765
+data/gtsrb/GTSRB/Final_Test/Images/07421.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.9920517206192015,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:46:44.609146
+data/gtsrb/GTSRB/Final_Test/Images/07468.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.7552372217178345,3,Speed limit (60km/h),0.1695709377527237,False,False,2026-01-23T13:46:47.659621
+data/gtsrb/GTSRB/Final_Test/Images/07473.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.9857653975486756,3,Speed limit (60km/h),0.0021062234882265,False,False,2026-01-23T13:46:50.980438
+data/gtsrb/GTSRB/Final_Test/Images/07568.ppm,23,Slippery road,5,Speed limit (80km/h),0.8261690139770508,23,Slippery road,0.0,False,False,2026-01-23T13:46:59.371420
+data/gtsrb/GTSRB/Final_Test/Images/07671.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9997089505195618,5,Speed limit (80km/h),0.9997089505195618,True,True,2026-01-23T13:47:02.139241
+data/gtsrb/GTSRB/Final_Test/Images/07756.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.8092020750045776,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:47:07.098831
+data/gtsrb/GTSRB/Final_Test/Images/07812.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.98892480134964,8,Speed limit (120km/h),0.0,False,True,2026-01-23T13:47:18.973448
+data/gtsrb/GTSRB/Final_Test/Images/07835.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.8991162180900574,5,Speed limit (80km/h),0.8991162180900574,True,True,2026-01-23T13:47:22.593540
+data/gtsrb/GTSRB/Final_Test/Images/07861.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9840829968452454,5,Speed limit (80km/h),0.9840829968452454,True,True,2026-01-23T13:47:24.663095
+data/gtsrb/GTSRB/Final_Test/Images/07896.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9809165596961976,5,Speed limit (80km/h),0.9809165596961976,True,True,2026-01-23T13:47:27.315605
+data/gtsrb/GTSRB/Final_Test/Images/07957.ppm,8,Speed limit (120km/h),20,Dangerous curve to the right,0.1545460075139999,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:47:32.835328
+data/gtsrb/GTSRB/Final_Test/Images/07995.ppm,23,Slippery road,5,Speed limit (80km/h),0.8171439170837402,23,Slippery road,0.0,False,False,2026-01-23T13:47:42.412390
+data/gtsrb/GTSRB/Final_Test/Images/08032.ppm,7,Speed limit (100km/h),5,Speed limit (80km/h),0.8908287286758423,7,Speed limit (100km/h),0.0255090352147817,False,False,2026-01-23T13:47:54.666696
+data/gtsrb/GTSRB/Final_Test/Images/08051.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.951857328414917,5,Speed limit (80km/h),0.951857328414917,True,False,2026-01-23T13:47:57.248617
+data/gtsrb/GTSRB/Final_Test/Images/08198.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.9935773015022278,3,Speed limit (60km/h),0.002806388773024,False,False,2026-01-23T13:48:00.448082
+data/gtsrb/GTSRB/Final_Test/Images/08212.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9914330244064332,8,Speed limit (120km/h),0.0,False,True,2026-01-23T13:48:07.102209
+data/gtsrb/GTSRB/Final_Test/Images/08240.ppm,23,Slippery road,5,Speed limit (80km/h),0.9235981702804564,23,Slippery road,0.0,False,False,2026-01-23T13:48:13.858284
+data/gtsrb/GTSRB/Final_Test/Images/08278.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.7613582015037537,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:48:20.180660
+data/gtsrb/GTSRB/Final_Test/Images/08313.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9959348440170288,3,Speed limit (60km/h),0.0004664256703108,False,True,2026-01-23T13:48:26.608488
+data/gtsrb/GTSRB/Final_Test/Images/08365.ppm,23,Slippery road,5,Speed limit (80km/h),0.6456836462020874,23,Slippery road,0.0,False,False,2026-01-23T13:48:36.388563
+data/gtsrb/GTSRB/Final_Test/Images/08480.ppm,23,Slippery road,23,Slippery road,0.9915332198143004,23,Slippery road,0.9915332198143004,True,True,2026-01-23T13:48:39.106911
+data/gtsrb/GTSRB/Final_Test/Images/08539.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9998596906661988,5,Speed limit (80km/h),0.9998596906661988,True,True,2026-01-23T13:48:42.947407
+data/gtsrb/GTSRB/Final_Test/Images/08552.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.6659224629402161,3,Speed limit (60km/h),0.2094308733940124,False,False,2026-01-23T13:48:46.478090
+data/gtsrb/GTSRB/Final_Test/Images/08611.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9995927214622498,3,Speed limit (60km/h),8.135012467391789e-05,False,True,2026-01-23T13:48:59.432024
+data/gtsrb/GTSRB/Final_Test/Images/08706.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9997506737709044,3,Speed limit (60km/h),3.895853296853602e-05,False,True,2026-01-23T13:49:05.002728
+data/gtsrb/GTSRB/Final_Test/Images/08736.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9951999187469482,2,Speed limit (50km/h),0.0003197536570951,False,True,2026-01-23T13:49:13.172958
+data/gtsrb/GTSRB/Final_Test/Images/08802.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9993478655815125,5,Speed limit (80km/h),0.9993478655815125,True,True,2026-01-23T13:49:15.486408
+data/gtsrb/GTSRB/Final_Test/Images/08820.ppm,2,Speed limit (50km/h),5,Speed limit (80km/h),0.5337913632392883,2,Speed limit (50km/h),0.0555331036448478,False,False,2026-01-23T13:49:19.043360
+data/gtsrb/GTSRB/Final_Test/Images/08826.ppm,30,Beware of ice/snow,30,Beware of ice/snow,0.6754475831985474,30,Beware of ice/snow,0.6754475831985474,True,True,2026-01-23T13:49:21.649356
+data/gtsrb/GTSRB/Final_Test/Images/08846.ppm,23,Slippery road,23,Slippery road,0.9927458167076112,23,Slippery road,0.9927458167076112,True,True,2026-01-23T13:49:24.101103
+data/gtsrb/GTSRB/Final_Test/Images/08947.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.981532871723175,3,Speed limit (60km/h),0.0016951942816376,False,True,2026-01-23T13:49:28.042758
+data/gtsrb/GTSRB/Final_Test/Images/09006.ppm,23,Slippery road,29,Bicycles crossing,0.5985552668571472,23,Slippery road,0.0107941832393407,False,False,2026-01-23T13:49:33.061198
+data/gtsrb/GTSRB/Final_Test/Images/09029.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9392989873886108,4,Speed limit (70km/h),0.0,False,True,2026-01-23T13:49:49.223486
+data/gtsrb/GTSRB/Final_Test/Images/09076.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.9982511401176452,3,Speed limit (60km/h),0.00074561155634,False,False,2026-01-23T13:49:52.218341
+data/gtsrb/GTSRB/Final_Test/Images/09213.ppm,23,Slippery road,5,Speed limit (80km/h),0.4613363444805145,23,Slippery road,0.0201682075858116,False,False,2026-01-23T13:49:56.480328
+data/gtsrb/GTSRB/Final_Test/Images/09256.ppm,23,Slippery road,23,Slippery road,0.9996718168258668,23,Slippery road,0.9996718168258668,True,True,2026-01-23T13:49:59.018982
+data/gtsrb/GTSRB/Final_Test/Images/09314.ppm,5,Speed limit (80km/h),33,Turn right ahead,0.4418353736400604,3,Speed limit (60km/h),0.0215577874332666,False,False,2026-01-23T13:50:07.353760
+data/gtsrb/GTSRB/Final_Test/Images/09315.ppm,2,Speed limit (50km/h),3,Speed limit (60km/h),0.5942196846008301,2,Speed limit (50km/h),0.119140088558197,False,False,2026-01-23T13:50:11.467347
+data/gtsrb/GTSRB/Final_Test/Images/09339.ppm,23,Slippery road,29,Bicycles crossing,0.8941112160682678,23,Slippery road,0.0039865225553512,False,False,2026-01-23T13:50:15.753565
+data/gtsrb/GTSRB/Final_Test/Images/09434.ppm,23,Slippery road,5,Speed limit (80km/h),0.9651126861572266,23,Slippery road,0.0,False,False,2026-01-23T13:50:25.218078
+data/gtsrb/GTSRB/Final_Test/Images/09458.ppm,23,Slippery road,29,Bicycles crossing,0.5945126414299011,23,Slippery road,0.0144628444686532,False,False,2026-01-23T13:50:29.749207
+data/gtsrb/GTSRB/Final_Test/Images/09539.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.9899306297302246,3,Speed limit (60km/h),0.0065128849819302,False,False,2026-01-23T13:50:33.835065
+data/gtsrb/GTSRB/Final_Test/Images/09574.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9906676411628724,3,Speed limit (60km/h),0.0,False,True,2026-01-23T13:50:41.452286
+data/gtsrb/GTSRB/Final_Test/Images/09624.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9994847774505616,5,Speed limit (80km/h),0.9994847774505616,True,True,2026-01-23T13:50:46.629405
+data/gtsrb/GTSRB/Final_Test/Images/09638.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.9964228272438048,3,Speed limit (60km/h),0.0012977793812751,False,False,2026-01-23T13:50:49.317402
+data/gtsrb/GTSRB/Final_Test/Images/09688.ppm,23,Slippery road,5,Speed limit (80km/h),0.7232372164726257,23,Slippery road,0.0,False,False,2026-01-23T13:50:58.367940
+data/gtsrb/GTSRB/Final_Test/Images/09701.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.9936989545822144,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:51:05.740575
+data/gtsrb/GTSRB/Final_Test/Images/09719.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.9986590147018432,3,Speed limit (60km/h),0.0010510321008041,False,False,2026-01-23T13:51:09.024462
+data/gtsrb/GTSRB/Final_Test/Images/09740.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.9522219896316528,8,Speed limit (120km/h),0.0248387120664119,False,False,2026-01-23T13:51:13.133764
+data/gtsrb/GTSRB/Final_Test/Images/09757.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.8629637360572815,5,Speed limit (80km/h),0.8629637360572815,True,True,2026-01-23T13:51:15.733914
+data/gtsrb/GTSRB/Final_Test/Images/09956.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.9900298714637756,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:51:21.835392
+data/gtsrb/GTSRB/Final_Test/Images/10045.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.995296061038971,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:51:28.046233
+data/gtsrb/GTSRB/Final_Test/Images/10135.ppm,3,Speed limit (60km/h),3,Speed limit (60km/h),0.2302847206592559,3,Speed limit (60km/h),0.2302847206592559,True,True,2026-01-23T13:51:35.328823
+data/gtsrb/GTSRB/Final_Test/Images/10136.ppm,7,Speed limit (100km/h),5,Speed limit (80km/h),0.6119425296783447,5,Speed limit (80km/h),0.6119425296783447,True,False,2026-01-23T13:51:39.061321
+data/gtsrb/GTSRB/Final_Test/Images/10243.ppm,23,Slippery road,23,Slippery road,0.9262999892234802,23,Slippery road,0.9262999892234802,True,True,2026-01-23T13:51:41.504919
+data/gtsrb/GTSRB/Final_Test/Images/10300.ppm,7,Speed limit (100km/h),7,Speed limit (100km/h),0.5411765575408936,7,Speed limit (100km/h),0.5411765575408936,True,True,2026-01-23T13:51:44.468445
+data/gtsrb/GTSRB/Final_Test/Images/10396.ppm,23,Slippery road,5,Speed limit (80km/h),0.7607530951499939,23,Slippery road,0.0,False,False,2026-01-23T13:51:52.590478
+data/gtsrb/GTSRB/Final_Test/Images/10454.ppm,5,Speed limit (80km/h),33,Turn right ahead,0.4309282600879669,7,Speed limit (100km/h),0.1412604600191116,False,False,2026-01-23T13:52:00.956294
+data/gtsrb/GTSRB/Final_Test/Images/10709.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.5268058180809021,1,Speed limit (30km/h),0.0406503304839134,False,True,2026-01-23T13:52:07.641963
+data/gtsrb/GTSRB/Final_Test/Images/10826.ppm,7,Speed limit (100km/h),5,Speed limit (80km/h),0.9360587000846864,7,Speed limit (100km/h),0.0160186197608709,False,False,2026-01-23T13:52:11.372243
+data/gtsrb/GTSRB/Final_Test/Images/10830.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.950035572052002,5,Speed limit (80km/h),0.950035572052002,True,True,2026-01-23T13:52:18.320138
+data/gtsrb/GTSRB/Final_Test/Images/11017.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.9794320464134216,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:52:23.395116
+data/gtsrb/GTSRB/Final_Test/Images/11056.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9985149502754213,5,Speed limit (80km/h),0.9985149502754213,True,True,2026-01-23T13:52:30.253836
+data/gtsrb/GTSRB/Final_Test/Images/11069.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.99976247549057,5,Speed limit (80km/h),0.99976247549057,True,True,2026-01-23T13:52:32.207616
+data/gtsrb/GTSRB/Final_Test/Images/11209.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9980475902557372,5,Speed limit (80km/h),0.9980475902557372,True,True,2026-01-23T13:52:36.220532
+data/gtsrb/GTSRB/Final_Test/Images/11238.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.8741407990455627,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:52:42.138407
+data/gtsrb/GTSRB/Final_Test/Images/11257.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9997610449790956,5,Speed limit (80km/h),0.9997610449790956,True,True,2026-01-23T13:52:44.548345
+data/gtsrb/GTSRB/Final_Test/Images/11358.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9968491196632384,5,Speed limit (80km/h),0.9968491196632384,True,True,2026-01-23T13:52:47.346879
+data/gtsrb/GTSRB/Final_Test/Images/11361.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.7294881939888,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:52:53.748487
+data/gtsrb/GTSRB/Final_Test/Images/11507.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9816758036613464,5,Speed limit (80km/h),0.9816758036613464,True,True,2026-01-23T13:52:55.993844
+data/gtsrb/GTSRB/Final_Test/Images/11508.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.9916598200798036,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:53:04.752368
+data/gtsrb/GTSRB/Final_Test/Images/11619.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.9921739101409912,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:53:10.939546
+data/gtsrb/GTSRB/Final_Test/Images/11650.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.9887789487838744,3,Speed limit (60km/h),0.00278509571217,False,False,2026-01-23T13:53:15.953668
+data/gtsrb/GTSRB/Final_Test/Images/11675.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.9403768181800842,3,Speed limit (60km/h),0.053146619349718,False,False,2026-01-23T13:53:19.294144
+data/gtsrb/GTSRB/Final_Test/Images/11683.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.999197781085968,5,Speed limit (80km/h),0.999197781085968,True,True,2026-01-23T13:53:22.174540
+data/gtsrb/GTSRB/Final_Test/Images/11691.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.3491380512714386,3,Speed limit (60km/h),0.3460104465484619,False,False,2026-01-23T13:53:25.225805
+data/gtsrb/GTSRB/Final_Test/Images/11746.ppm,30,Beware of ice/snow,30,Beware of ice/snow,0.5425227284431458,30,Beware of ice/snow,0.5425227284431458,True,True,2026-01-23T13:53:28.066385
+data/gtsrb/GTSRB/Final_Test/Images/11849.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9998205304145812,5,Speed limit (80km/h),0.9998205304145812,True,True,2026-01-23T13:53:33.346301
+data/gtsrb/GTSRB/Final_Test/Images/11895.ppm,23,Slippery road,5,Speed limit (80km/h),0.9069808721542358,23,Slippery road,0.0,False,False,2026-01-23T13:53:39.548018
+data/gtsrb/GTSRB/Final_Test/Images/11941.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9995858073234558,5,Speed limit (80km/h),0.9995858073234558,True,True,2026-01-23T13:53:44.606531
+data/gtsrb/GTSRB/Final_Test/Images/11999.ppm,23,Slippery road,5,Speed limit (80km/h),0.9131066799163818,23,Slippery road,0.0,False,False,2026-01-23T13:53:53.520002
+data/gtsrb/GTSRB/Final_Test/Images/12143.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9896950721740724,5,Speed limit (80km/h),0.9896950721740724,True,True,2026-01-23T13:53:56.196570
+data/gtsrb/GTSRB/Final_Test/Images/12153.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.9923535585403442,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:54:01.739247
+data/gtsrb/GTSRB/Final_Test/Images/12164.ppm,2,Speed limit (50km/h),5,Speed limit (80km/h),0.6374766826629639,2,Speed limit (50km/h),0.2814259231090545,False,False,2026-01-23T13:54:05.229348
+data/gtsrb/GTSRB/Final_Test/Images/12283.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.964242935180664,2,Speed limit (50km/h),0.0047330297529697,False,True,2026-01-23T13:54:09.237082
+data/gtsrb/GTSRB/Final_Test/Images/12363.ppm,8,Speed limit (120km/h),5,Speed limit (80km/h),0.8618974089622498,8,Speed limit (120km/h),0.0,False,False,2026-01-23T13:54:15.561333
+data/gtsrb/GTSRB/Final_Test/Images/12396.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.915773630142212,3,Speed limit (60km/h),0.0,False,False,2026-01-23T13:54:27.225170
+data/gtsrb/GTSRB/Final_Test/Images/12474.ppm,3,Speed limit (60km/h),5,Speed limit (80km/h),0.9964323043823242,3,Speed limit (60km/h),0.0005347388214431,False,False,2026-01-23T13:54:32.076620
+data/gtsrb/GTSRB/Final_Test/Images/12549.ppm,5,Speed limit (80km/h),5,Speed limit (80km/h),0.9939762353897096,3,Speed limit (60km/h),0.0014282283373177,False,True,2026-01-23T13:54:36.494042
+data/gtsrb/GTSRB/Final_Test/Images/12567.ppm,23,Slippery road,23,Slippery road,0.9287124276161194,23,Slippery road,0.9287124276161194,True,True,2026-01-23T13:54:38.911957
