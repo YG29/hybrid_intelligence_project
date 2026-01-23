@@ -10,7 +10,7 @@ from src import dataset
 def main():
     utils.set_seed(configure.RANDOM_SEED)
 
-    device = utils.torch.device("cuda" if utils.torch.cuda.is_available() else "cpu")
+    device = utils.torch.device("mps" if utils.torch.mps.is_available() else "cpu")
     print(f"Using device: {device}")
 
     # Transforms: resize & normalize like ImageNet
